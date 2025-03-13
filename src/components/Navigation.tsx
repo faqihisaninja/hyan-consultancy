@@ -44,18 +44,30 @@ export default function Navigation() {
                     <div className="hidden md:flex flex-1 justify-between items-center ml-8">
                         <div className="flex-1"></div>
                         <div className="flex space-x-8">
-                            <Link href="/" className="text-gray-600">
+                            <Link
+                                href="/"
+                                className="text-gray-600 hover:text-[#136C7F]"
+                            >
                                 Home
                             </Link>
-                            <Link href="/about" className="text-gray-600">
+                            <Link
+                                href="/about"
+                                className="text-gray-600 hover:text-[#136C7F]"
+                            >
                                 About
                             </Link>
-                            <Link href="/services" className="text-gray-600">
+                            <Link
+                                href="/services"
+                                className="text-gray-600 hover:text-[#136C7F]"
+                            >
                                 Services
                             </Link>
                         </div>
                         <div className="flex-1 flex justify-end">
-                            <Link href="/contact" className="text-gray-600">
+                            <Link
+                                href="/contact"
+                                className="text-gray-600 hover:text-[#136C7F]"
+                            >
                                 Contact
                             </Link>
                         </div>
