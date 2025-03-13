@@ -121,14 +121,22 @@ export default function Navigation() {
                     <div className="flex flex-col space-y-4">
                         <Link
                             href="/"
-                            className="text-gray-600 py-2"
+                            className={`py-2 ${
+                                pathname === "/"
+                                    ? "text-[#93EBFE]"
+                                    : "text-gray-600 "
+                            } hover:text-[#93EBFE] }`}
                             onClick={() => setIsMobileMenuOpen(false)}
                         >
                             Home
                         </Link>
                         <Link
                             href="/about"
-                            className="text-gray-600 py-2"
+                            className={`py-2 ${
+                                pathname === "/about"
+                                    ? "text-[#93EBFE]"
+                                    : "text-gray-600 "
+                            } hover:text-[#93EBFE] }`}
                             onClick={() => setIsMobileMenuOpen(false)}
                         >
                             About
