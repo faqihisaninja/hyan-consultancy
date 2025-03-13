@@ -52,9 +52,9 @@ export default function Navigation() {
                                 href="/"
                                 className={`${
                                     pathname === "/"
-                                        ? "text-[#93EBFE]"
+                                        ? "text-[#1ba8ca]"
                                         : "text-gray-600 "
-                                } hover:text-[#93EBFE] }`}
+                                } hover:text-[#1ba8ca] }`}
                             >
                                 Home
                             </Link>
@@ -62,15 +62,15 @@ export default function Navigation() {
                                 href="/about"
                                 className={`${
                                     pathname === "/about"
-                                        ? "text-[#93EBFE]"
+                                        ? "text-[#1ba8ca]"
                                         : "text-gray-600"
-                                } hover:text-[#93EBFE] }`}
+                                } hover:text-[#1ba8ca] }`}
                             >
                                 About
                             </Link>
                             <Link
                                 href="/services"
-                                className="text-gray-600 hover:text-[#93EBFE]"
+                                className="text-gray-600 hover:text-[#1ba8ca]"
                             >
                                 Services
                             </Link>
@@ -78,7 +78,7 @@ export default function Navigation() {
                         <div className="flex-1 flex justify-end">
                             <Link
                                 href="/contact"
-                                className="text-gray-600 hover:text-[#93EBFE]"
+                                className="text-gray-600 hover:text-[#1ba8ca]"
                             >
                                 Contact
                             </Link>
