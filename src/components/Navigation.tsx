@@ -1,11 +1,15 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
+
 import Logo from "./Logo";
 
 export default function Navigation() {
+    const pathname = usePathname();
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    console.log(pathname === "/about");
 
     return (
         <nav className="bg-white shadow-[0_5px_20px_0_rgba(11,7,110,0.04)]">
@@ -46,13 +50,21 @@ export default function Navigation() {
                         <div className="flex space-x-8">
                             <Link
                                 href="/"
-                                className="text-gray-600 hover:text-[#93EBFE]"
+                                className={`${
+                                    pathname === "/"
+                                        ? "text-[#93EBFE]"
+                                        : "text-gray-600 "
+                                } hover:text-[#93EBFE] }`}
                             >
                                 Home
                             </Link>
                             <Link
                                 href="/about"
-                                className="text-gray-600 hover:text-[#93EBFE]"
+                                className={`${
+                                    pathname === "/about"
+                                        ? "text-[#93EBFE]"
+                                        : "text-gray-600"
+                                } hover:text-[#93EBFE] }`}
                             >
                                 About
                             </Link>
