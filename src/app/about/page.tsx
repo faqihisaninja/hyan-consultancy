@@ -1,11 +1,24 @@
+import Head from "next/head";
+import Image from "next/image";
+
 export default function About() {
     return (
         <main className="bg-[#F8FBFB]">
+            <Head>
+                <title>About Us | Hyan Consulting</title>
+                <meta
+                    name="description"
+                    content="Learn about Hyan Consulting, your trusted partner in legal and compliance recruitment across Southeast Asia."
+                />
+            </Head>
+
             <div className="relative h-[300px] md:h-[400px] w-full">
-                <img
+                <Image
                     src="/connection.jpg"
                     alt="People connecting"
-                    className="w-full h-full object-cover object-[50% 100%]"
+                    fill
+                    className="object-cover"
+                    priority
                 />
                 <div className="absolute inset-0 bg-black/30" />
                 <div className="absolute inset-0 flex items-center justify-center">
@@ -14,62 +27,91 @@ export default function About() {
                     </h1>
                 </div>
             </div>
-            <section className="pt-12 pb-20 px-4 md:px-8">
-                <div className="max-w-6xl mx-auto">
-                    <div className="grid md:grid-cols-2 gap-12">
-                        <div className="space-y-6">
-                            <p className="text-lg text-gray-600">
-                                Hyan Consulting is a boutique recruitment agency
-                                dedicated to connecting exceptional talent with
-                                stellar organizations. With over 25 years of
-                                combined experience, we are your trusted partner
-                                offering a proven track record of success in
-                                meeting your recruitment needs.
-                            </p>
-                            <p className="text-lg text-gray-600">
-                                While our primary focus is on legal and
-                                compliance placements in Singapore, our
-                                expertise extends to Malaysia, Hong Kong and
-                                other Southeast Asian regions, allowing us to
-                                serve clients and candidates across the broader
-                                SEA markets.
-                            </p>
-                        </div>
-                        <div className="bg-white p-8 rounded-lg border border-[#80D9E2]">
-                            <h2 className="text-2xl font-semibold text-[#006D77] mb-4">
-                                Our Values
-                            </h2>
-                            <ul className="space-y-4">
-                                <li className="flex items-start gap-3">
-                                    <span className="text-[#00B2CA] font-semibold">
-                                        Excellence
-                                    </span>
-                                    <p className="text-gray-600">
-                                        Delivering the highest quality solutions
-                                        to our clients
-                                    </p>
-                                </li>
-                                <li className="flex items-start gap-3">
-                                    <span className="text-[#00B2CA] font-semibold">
-                                        Integrity
-                                    </span>
-                                    <p className="text-gray-600">
-                                        Operating with honesty and transparency
-                                        in all we do
-                                    </p>
-                                </li>
-                                <li className="flex items-start gap-3">
-                                    <span className="text-[#00B2CA] font-semibold">
-                                        Innovation
-                                    </span>
-                                    <p className="text-gray-600">
-                                        Staying ahead with modern HR practices
-                                        and solutions
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+
+            {/* Who We Are */}
+            <section className="pt-16">
+                <div className="container mx-auto px-4">
+                    <h2 className="text-3xl text-gray-800 mb-6 font-medium font-poppins">
+                        Who We Are
+                    </h2>
+                    <p className="text-gray-700 leading-relaxed">
+                        Hyan Consulting is a boutique recruitment agency
+                        dedicated to connecting exceptional talent with stellar
+                        organizations. With over 25 years of combined
+                        experience, we are your trusted partner offering a
+                        proven track record of success in meeting your
+                        recruitment needs.
+                    </p>
+                </div>
+            </section>
+
+            {/* Our Reach */}
+            <section className="bg-gray-50 pt-16">
+                <div className="container mx-auto px-4">
+                    <h2 className="text-3xl text-gray-800 mb-6 font-medium font-poppins">
+                        Our Reach
+                    </h2>
+                    <p className="text-gray-700 leading-relaxed">
+                        While our primary focus is on legal and compliance
+                        placements in Singapore, our expertise extends to
+                        Malaysia, Hong Kong, and other Southeast Asian regions,
+                        allowing us to serve clients and candidates across the
+                        broader SEA market.
+                    </p>
+                </div>
+            </section>
+
+            {/* Our Specialization */}
+            <section className="pt-16">
+                <div className="container mx-auto px-4">
+                    <h2 className="text-3xl text-gray-800 mb-6 font-medium font-poppins">
+                        Our Specialization in Legal & Compliance Recruitment
+                    </h2>
+                    <p className="text-gray-700 mb-4">
+                        At Hyan Consulting, we recognize the unique demands of
+                        the legal and compliance industry. We work closely with
+                        law firms, in-house legal departments, and government
+                        agencies in recruiting all sub-functions under the Legal
+                        & Compliance umbrella. The roles we fill include:
+                    </p>
+                    <ul className="list-disc pl-6 text-gray-700">
+                        <li>General Counsel and In-House Counsel</li>
+                        <li>Data Protection Officer (DPO)</li>
+                        <li>
+                            Chief Compliance Officer, Compliance & Risk
+                            Professional
+                        </li>
+                        <li>Partner and Associate in law firms</li>
+                        <li>
+                            Legal Administrative and Support Staff Recruitment
+                        </li>
+                        <li>Corporate Secretaries</li>
+                    </ul>
+                </div>
+            </section>
+
+            {/* Why Choose Us */}
+            <section className="bg-gray-50 py-16">
+                <div className="container mx-auto px-4">
+                    <h2 className="text-3xl text-gray-800 mb-6 font-medium font-poppins">
+                        Why Choose Us
+                    </h2>
+                    <p className="text-gray-700 leading-relaxed">
+                        By partnering with Hyan Consulting, you can rely on a
+                        team of experts who take a personalized approach to
+                        every search. We tailor our strategies to align with the
+                        culture, values, and goals of both our clients and
+                        candidates. Our unwavering commitment to excellence,
+                        along with our focus on building lasting partnerships,
+                        ensures we deliver exceptional talent that drives
+                        long-term success and growth.
+                    </p>
+                    <a
+                        href="/contact"
+                        className="mt-6 inline-block bg-[#26D7FD] text-white py-3 px-6 rounded-lg hover:bg-[#1ba8ca] transition shadow-md"
+                    >
+                        Get in Touch
+                    </a>
                 </div>
             </section>
         </main>

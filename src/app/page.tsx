@@ -37,7 +37,7 @@ export default function Home() {
                     </div>
                     <div className="hidden md:block relative h-96 rounded-lg overflow-hidden shadow-lg">
                         <Image
-                            src="/handshake.jpg"
+                            src="/hero-handshake.jpg"
                             alt="HR Professionals in a meeting"
                             fill
                             style={{ objectFit: "cover" }}
