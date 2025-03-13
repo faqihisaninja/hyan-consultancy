@@ -1,23 +1,38 @@
 export default function About() {
     return (
-        <main className="min-h-screen bg-[#F8FBFB]">
-            <section className="py-20 px-4 md:px-8">
-                <div className="max-w-6xl mx-auto">
-                    <h1 className="text-4xl md:text-6xl font-bold text-[#00B2CA] mb-6">
+        <main className="bg-[#F8FBFB]">
+            <div className="relative h-[300px] md:h-[400px] w-full">
+                <img
+                    src="/connection.jpg"
+                    alt="People connecting"
+                    className="w-full h-full object-cover object-[50% 100%]"
+                />
+                <div className="absolute inset-0 bg-black/30" />
+                <div className="absolute inset-0 flex items-center justify-center">
+                    <h1 className="text-4xl md:text-6xl font-bold text-white">
                         About Us
                     </h1>
+                </div>
+            </div>
+            <section className="pt-12 pb-20 px-4 md:px-8">
+                <div className="max-w-6xl mx-auto">
                     <div className="grid md:grid-cols-2 gap-12">
                         <div className="space-y-6">
                             <p className="text-lg text-gray-600">
-                                Hyan Consultancy is a leading HR consulting firm
-                                dedicated to helping businesses optimize their
-                                human resources operations and strategy.
+                                Hyan Consulting is a boutique recruitment agency
+                                dedicated to connecting exceptional talent with
+                                stellar organizations. With over 25 years of
+                                combined experience, we are your trusted partner
+                                offering a proven track record of success in
+                                meeting your recruitment needs.
                             </p>
                             <p className="text-lg text-gray-600">
-                                With years of experience in the industry, we
-                                provide tailored solutions that help
-                                organizations build stronger teams and achieve
-                                their business objectives.
+                                While our primary focus is on legal and
+                                compliance placements in Singapore, our
+                                expertise extends to Malaysia, Hong Kong and
+                                other Southeast Asian regions, allowing us to
+                                serve clients and candidates across the broader
+                                SEA markets.
                             </p>
                         </div>
                         <div className="bg-white p-8 rounded-lg border border-[#80D9E2]">
