@@ -46,19 +46,19 @@ export default function Navigation() {
                         <div className="flex space-x-8">
                             <Link
                                 href="/"
-                                className="text-gray-600 hover:text-[#136C7F]"
+                                className="text-gray-600 hover:text-[#93EBFE]"
                             >
                                 Home
                             </Link>
                             <Link
                                 href="/about"
-                                className="text-gray-600 hover:text-[#136C7F]"
+                                className="text-gray-600 hover:text-[#93EBFE]"
                             >
                                 About
                             </Link>
                             <Link
                                 href="/services"
-                                className="text-gray-600 hover:text-[#136C7F]"
+                                className="text-gray-600 hover:text-[#93EBFE]"
                             >
                                 Services
                             </Link>
@@ -66,7 +66,7 @@ export default function Navigation() {
                         <div className="flex-1 flex justify-end">
                             <Link
                                 href="/contact"
-                                className="text-gray-600 hover:text-[#136C7F]"
+                                className="text-gray-600 hover:text-[#93EBFE]"
                             >
                                 Contact
                             </Link>
