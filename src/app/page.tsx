@@ -1,14 +1,25 @@
 "use client";
 
-import Link from "next/link";
 import Image from "next/image";
 
 export default function Home() {
     return (
         <main className="min-h-screen bg-white">
             {/* Hero Section */}
-            <section className="py-20 px-4 md:px-8">
-                <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+            <section className="py-20 px-4 md:px-8 relative overflow-hidden">
+                {/* Background Graphics */}
+                <div className="absolute inset-0 z-0">
+                    <Image
+                        src="/hero-background.jpg"
+                        alt="Background pattern"
+                        fill
+                        className="object-cover opacity-10"
+                        priority
+                    />
+                </div>
+
+                {/* Content */}
+                <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center relative z-10">
                     <div>
                         <h1 className="text-4xl md:text-5xl/[3.5rem] font-bold text-black mb-6 font-poppins">
                             Bridging Businesses With The Right Talent
