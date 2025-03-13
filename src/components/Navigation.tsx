@@ -9,7 +9,6 @@ import Logo from "./Logo";
 export default function Navigation() {
     const pathname = usePathname();
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-    console.log(pathname === "/about");
 
     return (
         <nav className="bg-white shadow-[0_5px_20px_0_rgba(11,7,110,0.04)]">
