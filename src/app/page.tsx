@@ -54,7 +54,7 @@ export default function Home() {
                         Our Services
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        <div className="p-6 rounded-lg border border-[#26D7FD] hover:shadow-lg transition-shadow">
+                        <div className="p-6 rounded-lg border border-[#26D7FD] shadow-md">
                             <h3 className="text-xl font-medium text-black mb-4 font-poppins">
                                 Executive Search
                             </h3>
@@ -66,7 +66,7 @@ export default function Home() {
                                 thrive
                             </p>
                         </div>
-                        <div className="p-6 rounded-lg border border-[#26D7FD] hover:shadow-lg transition-shadow">
+                        <div className="p-6 rounded-lg border border-[#26D7FD] shadow-md">
                             <h3 className="text-xl font-medium text-black mb-4 font-poppins">
                                 Retained Search
                             </h3>
@@ -78,7 +78,7 @@ export default function Home() {
                                 personalized approach to talent acquisition
                             </p>
                         </div>
-                        <div className="p-6 rounded-lg border border-[#26D7FD] hover:shadow-lg transition-shadow">
+                        <div className="p-6 rounded-lg border border-[#26D7FD] shadow-md">
                             <h3 className="text-xl font-medium text-black mb-4 font-poppins">
                                 Outplacement Services
                             </h3>
@@ -185,9 +185,9 @@ export default function Home() {
                             Learn More
                         </button>
                     </div>
-                    <div className="relative h-80 md:h-96 rounded-lg overflow-hidden shadow-lg border-2 border-[#26D7FD]">
+                    <div className="relative h-80 md:h-96 rounded-lg overflow-hidden shadow-lg">
                         <Image
-                            src="/hyan-logo.png"
+                            src="/why-hyan.jpg"
                             alt="Professional team meeting"
                             fill
                             style={{ objectFit: "cover" }}
@@ -239,7 +239,7 @@ export default function Home() {
                             <textarea
                                 id="message"
                                 rows={4}
-                                className="w-full p-3 border border-[#26D7FD] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#26D7FD]"
+                                className="w-full p-3 resize-none border border-[#26D7FD] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#26D7FD]"
                             ></textarea>
                         </div>
                         <button
