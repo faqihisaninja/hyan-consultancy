@@ -20,7 +20,7 @@ export default function Home() {
 
                 {/* Content */}
                 <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center relative z-10">
-                    <div>
+                    <div className="text-center md:text-left">
                         <h1 className="text-4xl md:text-5xl/[3.5rem] font-bold text-black mb-6 font-poppins">
                             Bridging Businesses With The Right Talent
                         </h1>
@@ -35,7 +35,7 @@ export default function Home() {
                             Find Talent Now
                         </button>
                     </div>
-                    <div className="relative h-64 md:h-96 rounded-lg overflow-hidden shadow-lg">
+                    <div className="hidden md:block relative h-96 rounded-lg overflow-hidden shadow-lg">
                         <Image
                             src="/handshake.jpg"
                             alt="HR Professionals in a meeting"
@@ -50,7 +50,7 @@ export default function Home() {
             {/* Services Section */}
             <section className="py-16 px-4 md:px-8 bg-white">
                 <div className="max-w-6xl mx-auto">
-                    <h2 className="text-3xl font-medium text-black mb-12 font-poppins">
+                    <h2 className="text-3xl font-medium text-black mb-12 font-poppins text-center md:text-left">
                         Our Services
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -95,10 +95,10 @@ export default function Home() {
             </section>
 
             {/* Why Choose Hyan Section */}
-            <section className="py-16 px-4 md:px-8 bg-[#F8FBFB]">
+            <section className="py-16 px-6 md:px-8 bg-[#F8FBFB]">
                 <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
                     <div>
-                        <h2 className="text-3xl font-medium text-black mb-6 font-poppins">
+                        <h2 className="text-3xl font-medium text-black mb-6 font-poppins text-center md:text-left">
                             Why Choose Hyan
                         </h2>
                         <div className="space-y-4">
@@ -185,7 +185,7 @@ export default function Home() {
                             Learn More
                         </button>
                     </div>
-                    <div className="relative h-80 md:h-96 rounded-lg overflow-hidden shadow-lg">
+                    <div className="hidden md:block relative h-80 md:h-96 rounded-lg overflow-hidden shadow-lg">
                         <Image
                             src="/why-hyan.jpg"
                             alt="Professional team meeting"
@@ -213,7 +213,7 @@ export default function Home() {
                             <input
                                 type="text"
                                 id="name"
-                                className="w-full p-3 border border-[#26D7FD] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#26D7FD]"
+                                className="w-full p-3 text-[#333] border border-[#26D7FD] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#26D7FD]"
                             />
                         </div>
                         <div>
@@ -226,7 +226,7 @@ export default function Home() {
                             <input
                                 type="email"
                                 id="email"
-                                className="w-full p-3 border border-[#26D7FD] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#26D7FD]"
+                                className="w-full p-3 text-[#333] border border-[#26D7FD] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#26D7FD]"
                             />
                         </div>
                         <div>
@@ -239,7 +239,7 @@ export default function Home() {
                             <textarea
                                 id="message"
                                 rows={4}
-                                className="w-full p-3 resize-none border border-[#26D7FD] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#26D7FD]"
+                                className="w-full p-3 text-[#333] resize-none border border-[#26D7FD] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#26D7FD]"
                             ></textarea>
                         </div>
                         <button
