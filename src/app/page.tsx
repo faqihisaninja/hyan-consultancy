@@ -48,7 +48,7 @@ export default function Home() {
             </section>
 
             {/* Services Section */}
-            <section className="py-16 px-4 md:px-8 bg-white">
+            <section id="services" className="py-16 px-4 md:px-8 bg-white">
                 <div className="max-w-6xl mx-auto">
                     <h2 className="text-3xl font-medium text-black mb-12 font-poppins text-center md:text-left">
                         Our Services

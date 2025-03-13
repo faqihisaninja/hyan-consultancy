@@ -1,6 +1,16 @@
+"use client";
+
 import Link from "next/link";
 
 export default function Footer() {
+    const scrollToServices = (e: React.MouseEvent) => {
+        e.preventDefault();
+        const servicesSection = document.getElementById("services");
+        if (servicesSection) {
+            servicesSection.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
     return (
         <footer className="bg-[#26D7FD] text-white py-8 px-4 md:px-8">
             <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
@@ -18,7 +28,11 @@ export default function Footer() {
                         <Link href="/about" className="block">
                             About Us
                         </Link>
-                        <Link href="/services" className="block">
+                        <Link
+                            href="/services"
+                            className="block"
+                            onClick={scrollToServices}
+                        >
                             Services
                         </Link>
                         <Link href="/contact" className="block">

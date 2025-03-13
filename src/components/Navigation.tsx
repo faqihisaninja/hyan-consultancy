@@ -10,6 +10,15 @@ export default function Navigation() {
     const pathname = usePathname();
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+    // Add this function to handle smooth scrolling
+    const scrollToServices = (e: React.MouseEvent) => {
+        e.preventDefault();
+        const servicesSection = document.getElementById("services");
+        if (servicesSection) {
+            servicesSection.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
     return (
         <nav className="bg-white shadow-[0_5px_20px_0_rgba(11,7,110,0.04)]">
             <div className="max-w-6xl mx-auto px-4 md:px-8 py-4">
@@ -70,6 +79,7 @@ export default function Navigation() {
                             <Link
                                 href="/services"
                                 className="text-gray-600 hover:text-[#1ba8ca]"
+                                onClick={scrollToServices}
                             >
                                 Services
                             </Link>
@@ -143,7 +153,10 @@ export default function Navigation() {
                         <Link
                             href="/services"
                             className="text-gray-600 py-2"
-                            onClick={() => setIsMobileMenuOpen(false)}
+                            onClick={(e) => {
+                                setIsMobileMenuOpen(false);
+                                scrollToServices(e);
+                            }}
                         >
                             Services
                         </Link>
