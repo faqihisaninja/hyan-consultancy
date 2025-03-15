@@ -35,9 +35,6 @@ export default function Footer() {
                         >
                             Services
                         </Link>
-                        <Link href="/contact" className="block">
-                            Contact
-                        </Link>
                     </div>
                 </div>
                 <div>
