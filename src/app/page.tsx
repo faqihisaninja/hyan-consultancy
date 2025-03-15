@@ -10,10 +10,10 @@ export default function Home() {
                 {/* Background Graphics */}
                 <div className="absolute inset-0 z-0">
                     <Image
-                        src="/hero-handshake.jpg"
+                        src="/hero-background.jpg"
                         alt="Background pattern"
                         fill
-                        className="object-cover object-top opacity-70"
+                        className="object-cover opacity-10"
                         priority
                     />
                 </div>
@@ -35,7 +35,7 @@ export default function Home() {
                             Find Talent Now
                         </button>
                     </div>
-                    {/* <div className="hidden md:block relative h-96 rounded-lg overflow-hidden shadow-lg">
+                    <div className="hidden md:block relative h-96 rounded-lg overflow-hidden shadow-lg">
                         <Image
                             src="/hero-handshake.jpg"
                             alt="HR Professionals in a meeting"
@@ -43,7 +43,7 @@ export default function Home() {
                             style={{ objectFit: "cover" }}
                             priority
                         />
-                    </div> */}
+                    </div>
                 </div>
             </section>
 
