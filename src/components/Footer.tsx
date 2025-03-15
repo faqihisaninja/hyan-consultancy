@@ -1,15 +1,39 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname, useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 
 export default function Footer() {
+    const pathname = usePathname();
+    const router = useRouter();
+    const [shouldScroll, setShouldScroll] = useState(false);
+
+    // Modified function to handle navigation and scrolling
     const scrollToServices = (e: React.MouseEvent) => {
         e.preventDefault();
+
+        if (pathname !== "/") {
+            // If not on home page, navigate to home page first
+            setShouldScroll(true);
+            router.push("/", { scroll: false });
+        }
+        // If already on home page, just scroll
         const servicesSection = document.getElementById("services");
         if (servicesSection) {
             servicesSection.scrollIntoView({ behavior: "smooth" });
         }
     };
+
+    useEffect(() => {
+        if (shouldScroll && pathname === "/") {
+            const servicesSection = document.getElementById("services");
+            if (servicesSection) {
+                servicesSection.scrollIntoView({ behavior: "smooth" });
+            }
+            setShouldScroll(false); // Reset the flag
+        }
+    }, [shouldScroll, pathname]);
 
     return (
         <footer className="bg-[#26D7FD] text-white py-8 px-4 md:px-8">
