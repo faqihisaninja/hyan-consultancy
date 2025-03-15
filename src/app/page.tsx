@@ -10,10 +10,10 @@ export default function Home() {
                 {/* Background Graphics */}
                 <div className="absolute inset-0 z-0">
                     <Image
-                        src="/hero-background.jpg"
+                        src="/hero-handshake.jpg"
                         alt="Background pattern"
                         fill
-                        className="object-cover opacity-10"
+                        className="object-cover object-top opacity-70"
                         priority
                     />
                 </div>
@@ -24,7 +24,7 @@ export default function Home() {
                         <h1 className="text-4xl md:text-5xl/[3.5rem] font-bold text-black mb-6 font-poppins">
                             Bridging Businesses With The Right Talent
                         </h1>
-                        <p className="text-xl md:text-2xl text-gray-600 max-w-2xl mb-8">
+                        <p className="text-xl md:text-2xl text-black max-w-2xl mb-8">
                             Specialised Recruitment Solutions For Leading
                             Organisations
                         </p>
@@ -35,7 +35,7 @@ export default function Home() {
                             Find Talent Now
                         </button>
                     </div>
-                    <div className="hidden md:block relative h-96 rounded-lg overflow-hidden shadow-lg">
+                    {/* <div className="hidden md:block relative h-96 rounded-lg overflow-hidden shadow-lg">
                         <Image
                             src="/hero-handshake.jpg"
                             alt="HR Professionals in a meeting"
@@ -43,7 +43,7 @@ export default function Home() {
                             style={{ objectFit: "cover" }}
                             priority
                         />
-                    </div>
+                    </div> */}
                 </div>
             </section>
 
