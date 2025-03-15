@@ -12,8 +12,8 @@ export default function Contact() {
                                 Get in Touch
                             </h2>
                             <p className="text-lg text-gray-600 mb-8">
-                                We're here to help with all your HR needs. Reach
-                                out to us for a consultation.
+                                We&apos;re here to help with all your HR needs.
+                                Reach out to us for a consultation.
                             </p>
                             <div className="space-y-4">
                                 <div>
