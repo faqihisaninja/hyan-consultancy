@@ -14,7 +14,7 @@ export default function About() {
 
             <div className="relative h-[300px] md:h-[400px] w-full">
                 <Image
-                    src="/connection.jpg"
+                    src="/about-background.jpg"
                     alt="People connecting"
                     fill
                     className="object-cover"
