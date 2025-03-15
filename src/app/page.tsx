@@ -197,58 +197,161 @@ export default function Home() {
             </section>
 
             {/* Contact Form Section */}
-            <section className="py-16 px-4 md:px-8">
-                <div className="max-w-2xl mx-auto">
-                    <h2 className="text-3xl font-medium text-black mb-8 font-poppins">
-                        Get in Touch
-                    </h2>
-                    <form className="space-y-6">
-                        <div>
-                            <label
-                                htmlFor="name"
-                                className="block text-gray-700 mb-2"
-                            >
-                                Name
-                            </label>
-                            <input
-                                type="text"
-                                id="name"
-                                className="w-full p-3 text-[#333] border border-[#26D7FD] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#26D7FD]"
-                            />
+            <section id="contact" className="py-16 px-4 md:px-8 bg-[#F8FBFB]">
+                <div className="max-w-6xl mx-auto">
+                    <div className="grid md:grid-cols-2 gap-12">
+                        {/* Contact Information */}
+                        <div className="space-y-6">
+                            <div>
+                                <h2 className="text-3xl font-medium text-black mb-4 font-poppins">
+                                    Get in Touch
+                                </h2>
+                                <p className="text-gray-600 mb-6">
+                                    Have questions or need assistance? Our team
+                                    is here to help you find the right talent
+                                    for your organization.
+                                </p>
+                            </div>
+
+                            <div className="space-y-4">
+                                <div className="flex items-start">
+                                    <div className="bg-[#26D7FD] rounded-full p-2 mr-4 mt-1">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="h-5 w-5 text-white"
+                                            viewBox="0 0 20 20"
+                                            fill="currentColor"
+                                        >
+                                            <path
+                                                fillRule="evenodd"
+                                                d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                                                clipRule="evenodd"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4 className="text-lg font-medium text-black">
+                                            Address
+                                        </h4>
+                                        <p className="text-gray-600">
+                                            123 Business Street, Singapore
+                                            511213
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div className="flex items-start">
+                                    <div className="bg-[#26D7FD] rounded-full p-2 mr-4 mt-1">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="h-5 w-5 text-white"
+                                            viewBox="0 0 20 20"
+                                            fill="currentColor"
+                                        >
+                                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4 className="text-lg font-medium text-black">
+                                            Phone
+                                        </h4>
+                                        <p className="text-gray-600">
+                                            +44 20 1234 5678
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div className="flex items-start">
+                                    <div className="bg-[#26D7FD] rounded-full p-2 mr-4 mt-1">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="h-5 w-5 text-white"
+                                            viewBox="0 0 20 20"
+                                            fill="currentColor"
+                                        >
+                                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4 className="text-lg font-medium text-black">
+                                            Email
+                                        </h4>
+                                        <p className="text-gray-600">
+                                            contact@hyanconsultancy.com
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div>
-                            <label
-                                htmlFor="email"
-                                className="block text-gray-700 mb-2"
-                            >
-                                Email
-                            </label>
-                            <input
-                                type="email"
-                                id="email"
-                                className="w-full p-3 text-[#333] border border-[#26D7FD] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#26D7FD]"
-                            />
+
+                        {/* Contact Form */}
+                        <div className="bg-white p-8 rounded-lg shadow-md">
+                            <form className="space-y-6">
+                                <div>
+                                    <label
+                                        htmlFor="name"
+                                        className="block text-gray-700 mb-2"
+                                    >
+                                        Name
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="name"
+                                        required
+                                        className="w-full p-3 text-[#333] border border-[#26D7FD] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#26D7FD]"
+                                    />
+                                </div>
+                                <div>
+                                    <label
+                                        htmlFor="email"
+                                        className="block text-gray-700 mb-2"
+                                    >
+                                        Email Address
+                                    </label>
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        required
+                                        className="w-full p-3 text-[#333] border border-[#26D7FD] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#26D7FD]"
+                                    />
+                                </div>
+                                <div>
+                                    <label
+                                        htmlFor="subject"
+                                        className="block text-gray-700 mb-2"
+                                    >
+                                        Subject
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="subject"
+                                        className="w-full p-3 text-[#333] border border-[#26D7FD] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#26D7FD]"
+                                    />
+                                </div>
+                                <div>
+                                    <label
+                                        htmlFor="message"
+                                        className="block text-gray-700 mb-2"
+                                    >
+                                        Message
+                                    </label>
+                                    <textarea
+                                        id="message"
+                                        rows={5}
+                                        required
+                                        className="w-full p-3 text-[#333] resize-none border border-[#26D7FD] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#26D7FD]"
+                                    ></textarea>
+                                </div>
+                                <button
+                                    type="submit"
+                                    className="w-full bg-[#26D7FD] text-white py-3 px-6 rounded-lg hover:bg-[#1ba8ca] transition-colors font-medium"
+                                >
+                                    Send Message
+                                </button>
+                            </form>
                         </div>
-                        <div>
-                            <label
-                                htmlFor="message"
-                                className="block text-gray-700 mb-2"
-                            >
-                                Message
-                            </label>
-                            <textarea
-                                id="message"
-                                rows={4}
-                                className="w-full p-3 text-[#333] resize-none border border-[#26D7FD] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#26D7FD]"
-                            ></textarea>
-                        </div>
-                        <button
-                            type="submit"
-                            className="w-full bg-[#26D7FD] text-white py-3 px-6 rounded-lg hover:bg-[#1ba8ca] transition-colors"
-                        >
-                            Send Message
-                        </button>
-                    </form>
+                    </div>
                 </div>
             </section>
         </main>
