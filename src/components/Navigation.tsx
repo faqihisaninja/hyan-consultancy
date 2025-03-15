@@ -53,7 +53,7 @@ export default function Navigation() {
                     </button>
 
                     {/* Desktop Navigation */}
-                    <div className="hidden md:flex flex-1 justify-between items-center ml-8">
+                    <div className="hidden md:flex flex-1 justify-between items-center">
                         <div className="flex-1"></div>
                         <div className="flex space-x-8">
                             <Link
