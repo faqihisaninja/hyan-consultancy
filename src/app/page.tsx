@@ -197,7 +197,7 @@ export default function Home() {
             </section>
 
             {/* Contact Form Section */}
-            <section id="contact" className="py-16 px-4 md:px-8 bg-[#F8FBFB]">
+            <section id="contact" className="py-16 px-4 md:px-8 bg-white">
                 <div className="max-w-6xl mx-auto">
                     <div className="grid md:grid-cols-2 gap-12">
                         {/* Contact Information */}
@@ -256,7 +256,7 @@ export default function Home() {
                                             Phone
                                         </h4>
                                         <p className="text-gray-600">
-                                            +44 20 1234 5678
+                                            +65 1234 5678
                                         </p>
                                     </div>
                                 </div>
