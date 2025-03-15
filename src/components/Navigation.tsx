@@ -1,23 +1,42 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { usePathname, useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 
 import Logo from "./Logo";
 
 export default function Navigation() {
     const pathname = usePathname();
+    const router = useRouter();
+    const [shouldScroll, setShouldScroll] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-    // Add this function to handle smooth scrolling
+    // Modified function to handle navigation and scrolling
     const scrollToServices = (e: React.MouseEvent) => {
         e.preventDefault();
+
+        if (pathname !== "/") {
+            // If not on home page, navigate to home page first
+            setShouldScroll(true);
+            router.push("/");
+        }
+        // If already on home page, just scroll
         const servicesSection = document.getElementById("services");
         if (servicesSection) {
             servicesSection.scrollIntoView({ behavior: "smooth" });
         }
     };
+
+    useEffect(() => {
+        if (shouldScroll && pathname === "/") {
+            const servicesSection = document.getElementById("services");
+            if (servicesSection) {
+                servicesSection.scrollIntoView({ behavior: "smooth" });
+            }
+            setShouldScroll(false); // Reset the flag
+        }
+    }, [shouldScroll, pathname]);
 
     return (
         <nav className="bg-white shadow-[0_5px_20px_0_rgba(11,7,110,0.04)]">
