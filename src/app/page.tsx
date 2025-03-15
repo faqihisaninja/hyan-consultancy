@@ -3,6 +3,15 @@
 import Image from "next/image";
 
 export default function Home() {
+    const scrollToContact = (e: React.MouseEvent) => {
+        e.preventDefault();
+
+        const contactForm = document.getElementById("contact");
+        if (contactForm) {
+            contactForm.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
     return (
         <main className="min-h-screen bg-white">
             {/* Hero Section */}
@@ -29,7 +38,7 @@ export default function Home() {
                             Organisations
                         </p>
                         <button
-                            onClick={() => (window.location.href = "/contact")}
+                            onClick={scrollToContact}
                             className="bg-[#26D7FD] text-white py-3 px-8 rounded-lg hover:bg-[#1ba8ca] transition-colors font-medium text-lg shadow-md"
                         >
                             Find Talent Now
