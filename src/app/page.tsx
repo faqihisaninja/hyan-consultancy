@@ -119,12 +119,15 @@ export default function Home() {
                                 </div>
                                 <div>
                                     <h3 className="text-xl font-medium text-black font-poppins">
-                                        Industry Expertise
+                                        Expertise and Experience
                                     </h3>
                                     <p className="text-gray-600 mt-1">
-                                        Our team brings decades of specialized
-                                        experience in legal recruitment across
-                                        various sectors.
+                                        Our seasoned team brings specialized
+                                        knowledge in legal recruitment,
+                                        leveraging deep industry insights and
+                                        networks to deliver exceptional results
+                                        across Singapore, Malaysia Hong Kong and
+                                        Southeast Asia.
                                     </p>
                                 </div>
                             </div>
@@ -145,12 +148,13 @@ export default function Home() {
                                 </div>
                                 <div>
                                     <h3 className="text-xl font-medium text-black font-poppins">
-                                        Personalized Approach
+                                        Tailored Solutions
                                     </h3>
                                     <p className="text-gray-600 mt-1">
-                                        We take the time to understand your
-                                        unique needs and culture to find the
-                                        perfect match.
+                                        We craft customized recruitment
+                                        strategies to fit your unique needs,
+                                        doing the heavy lifting so you
+                                        don&apos;t have to.
                                     </p>
                                 </div>
                             </div>
@@ -171,19 +175,43 @@ export default function Home() {
                                 </div>
                                 <div>
                                     <h3 className="text-xl font-medium text-black font-poppins">
-                                        Extensive Network
+                                        Commitment to Excellence
                                     </h3>
                                     <p className="text-gray-600 mt-1">
-                                        Access our vast network of top-tier
-                                        legal professionals and industry
-                                        connections.
+                                        We&apos;re dedicated to exceeding
+                                        expectations with top-quality service
+                                        and outstanding outcomes.
                                     </p>
                                 </div>
                             </div>
+                            {/* <div className="flex items-start">
+                                <div className="bg-[#26D7FD] rounded-full p-1 mr-3 mt-1">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        className="h-4 w-4 text-white"
+                                        viewBox="0 0 20 20"
+                                        fill="currentColor"
+                                    >
+                                        <path
+                                            fillRule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clipRule="evenodd"
+                                        />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 className="text-xl font-medium text-black font-poppins">
+                                        Regional Reach and Local Expertise
+                                    </h3>
+                                    <p className="text-gray-600 mt-1">
+                                        As part of a boutique network, we offer
+                                        access to a global talent pool and
+                                        seamless recruitment across Asia and
+                                        beyond.
+                                    </p>
+                                </div>
+                            </div> */}
                         </div>
-                        <button className="mt-8 bg-[#26D7FD] text-white py-2 px-6 rounded-lg hover:bg-[#1ba8ca] transition-colors font-medium">
-                            Learn More
-                        </button>
                     </div>
                     <div className="hidden md:block relative h-80 md:h-96 rounded-lg overflow-hidden shadow-lg">
                         <Image
