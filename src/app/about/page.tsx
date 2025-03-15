@@ -106,12 +106,6 @@ export default function About() {
                         ensures we deliver exceptional talent that drives
                         long-term success and growth.
                     </p>
-                    <a
-                        href="/contact"
-                        className="mt-6 inline-block bg-[#26D7FD] text-white py-3 px-6 rounded-lg hover:bg-[#1ba8ca] transition shadow-md"
-                    >
-                        Get in Touch
-                    </a>
                 </div>
             </section>
         </main>
