@@ -72,6 +72,17 @@ export default function Footer() {
             <div className="max-w-6xl mx-auto mt-5 pt-5 border-t border-[#80D9E2]">
                 <div className="flex flex-col md:flex-row justify-between items-center">
                     <p>© 2025 Hyan Consulting Ptd Ltd. All rights reserved.</p>
+
+                    {/* Legal Links */}
+                    <div className="flex space-x-4 mt-2 md:mt-0 text-sm">
+                        <Link href="/terms" className="hover:underline">
+                            Terms of Use
+                        </Link>
+                        <Link href="/privacy" className="hover:underline">
+                            Privacy Policy
+                        </Link>
+                    </div>
+
                     <div className="flex space-x-4 mt-4 md:mt-0">
                         <Link
                             href="#"
