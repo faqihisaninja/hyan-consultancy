@@ -24,7 +24,7 @@ export default function Privacy() {
                     </h2>
                     <p>
                         Cookies are pieces of information that a website
-                        transfers to your computer's hard disk for record
+                        transfers to your computer&apos;s hard disk for record
                         keeping purposes. Most web browsers are set to accept
                         cookies. Hyan Consulting may use cookies to make your
                         use of our website and services as convenient as
@@ -146,9 +146,9 @@ export default function Privacy() {
                         Consulting and do not wish to receive this information
                         any longer, you may remove your name from our list by
                         emailing us at contact@hyanconsulting.com (with subject
-                        title "Unsubscribe from Mailing List") and asking to be
-                        removed from our mailing list. Please allow 14 days for
-                        this request to be processed.
+                        title &quot;Unsubscribe from Mailing List&quot;) and
+                        asking to be removed from our mailing list. Please allow
+                        14 days for this request to be processed.
                     </p>
 
                     <h2 className="text-2xl font-medium text-black mt-6 mb-3 font-poppins">
@@ -158,11 +158,11 @@ export default function Privacy() {
                         If at any time you wish to change personal information
                         that is inaccurate or out of date, please contact us by
                         emailing us at contact@hyanconsulting.com (with subject
-                        title "Personal Data") and we will amend this record. If
-                        you wish to have your personal information deleted,
-                        please advise us in the same manner as referred to above
-                        and we will take all reasonable steps to delete it
-                        unless we need to keep it for legal reasons.
+                        title &quot;Personal Data&quot;) and we will amend this
+                        record. If you wish to have your personal information
+                        deleted, please advise us in the same manner as referred
+                        to above and we will take all reasonable steps to delete
+                        it unless we need to keep it for legal reasons.
                     </p>
 
                     <h2 className="text-2xl font-medium text-black mt-6 mb-3 font-poppins">

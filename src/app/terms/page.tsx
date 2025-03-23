@@ -11,22 +11,23 @@ export default function Terms() {
                         1. GENERAL
                     </h2>
                     <p>
-                        These terms and conditions ("Terms") govern your use and
-                        access of our website located at
+                        These terms and conditions (&quot;Terms&quot;) govern
+                        your use and access of our website located at
                         https://www.hyanconsulting.com/ , applications (mobile,
                         web-based or otherwise) and/or any information,
                         services, contents, products or features that form part
                         of such applications and websites (collectively, the
-                        "Website").
+                        &quot;Website&quot;).
                     </p>
                     <p>
-                        In these Terms, "Hyan Consulting", "we", "us" and "our"
-                        refer to Hyan Consulting Pte Ltd (a company incorporated
-                        in Singapore, with registered address at 111 N Bridge
-                        Rd, #20-04 Peninsula Plaza, Singapore 179098). "You" and
-                        "your" refer to any person and/or organization
-                        accessing, browsing, using and/or downloading,
-                        installing the Website.
+                        In these Terms, &quot;Hyan Consulting&quot;,
+                        &quot;we&quot;, &quot;us&quot; and &quot;our&quot; refer
+                        to Hyan Consulting Pte Ltd (a company incorporated in
+                        Singapore, with registered address at 111 N Bridge Rd,
+                        #20-04 Peninsula Plaza, Singapore 179098).
+                        &quot;You&quot; and &quot;your&quot; refer to any person
+                        and/or organization accessing, browsing, using and/or
+                        downloading, installing the Website.
                     </p>
                     <p>
                         By accessing, browsing, using and/or installing our
@@ -129,13 +130,14 @@ export default function Terms() {
                         interactive features, scripts, buttons, advertisements,
                         documents, multimedia, the arrangement and compilation
                         of contents, trademarks, logos, designs, and trade names
-                        (collectively the "Content"), are the property of Hyan
-                        Consulting, or its licensors, as the case may be.
+                        (collectively the &quot;Content&quot;), are the property
+                        of Hyan Consulting, or its licensors, as the case may
+                        be.
                     </p>
                     <p>
                         References to any names, marks, products or services of
                         third parties do not necessarily constitute or imply
-                        Hyan Consulting's endorsement, sponsorship or
+                        Hyan Consulting&apos;s endorsement, sponsorship or
                         recommendation of the third party, information, product
                         or service. To the maximum extent permitted by law, we
                         are not responsible and disclaim all liability for: such
@@ -158,8 +160,8 @@ export default function Terms() {
                         use only. All Contents on the Website may not be used,
                         copied, reproduced, distributed, transmitted, broadcast,
                         displayed, sold, licensed, or otherwise exploited for
-                        any other purpose without our or the relevant owner's
-                        prior written consent.
+                        any other purpose without our or the relevant
+                        owner&apos;s prior written consent.
                     </p>
                     <p>
                         You must not modify, adapt, translate, decompile, alter,
@@ -170,7 +172,7 @@ export default function Terms() {
                         public any Content, or any modification, adaptation,
                         translation, decompilation, alteration, disassembly,
                         reverse engineering or derivative works created from any
-                        Content, without our or the relevant owner's prior
+                        Content, without our or the relevant owner&apos;s prior
                         written consent.
                     </p>
                     <p>
@@ -212,23 +214,25 @@ export default function Terms() {
                         </li>
                         <li>
                             interfere or attempt to interfere with services we
-                            provide on the Website ("denial of service attacks")
-                            including, but not limited to, "flooding" of
-                            networks, deliberate attempts to overload a service,
-                            attempts to "crash" the Website and taking any
-                            action that imposes an unreasonable or
-                            disproportionately large load on the services
-                            provided by us or the associated infrastructure;
+                            provide on the Website (&quot;denial of service
+                            attacks&quot;) including, but not limited to,
+                            &quot;flooding&quot; of networks, deliberate
+                            attempts to overload a service, attempts to
+                            &quot;crash&quot; the Website and taking any action
+                            that imposes an unreasonable or disproportionately
+                            large load on the services provided by us or the
+                            associated infrastructure;
                         </li>
                         <li>
                             circumvent, or attempt to circumvent, user
-                            authentication or security measures ("cracking") of
-                            any Internet or intranet site or any of the accounts
-                            of our users or any other person using the Website,
-                            including but not limited to, accessing data and/or
-                            information not intended for you, logging into an
-                            account you are not expressly authorised to access
-                            or in a manner which is not authorised by us;
+                            authentication or security measures
+                            (&quot;cracking&quot;) of any Internet or intranet
+                            site or any of the accounts of our users or any
+                            other person using the Website, including but not
+                            limited to, accessing data and/or information not
+                            intended for you, logging into an account you are
+                            not expressly authorised to access or in a manner
+                            which is not authorised by us;
                         </li>
                         <li>
                             circumvent, or attempt to circumvent, any protection
@@ -248,12 +252,12 @@ export default function Terms() {
                         <li>
                             use any robot, spider, site search/retrieval
                             application or other manual or automatic device to
-                            retrieve, index, "scrape," "data mine", "crawl" or
-                            in any way gather the Website (including its
-                            Contents) or reproduce or circumvent the
-                            navigational structure or presentation of the
-                            Website (including its Contents) without our express
-                            prior written consent;
+                            retrieve, index, &quot;scrape,&quot; &quot;data
+                            mine,&quot; &quot;crawl&quot; or in any way gather
+                            the Website (including its Contents) or reproduce or
+                            circumvent the navigational structure or
+                            presentation of the Website (including its Contents)
+                            without our express prior written consent;
                         </li>
                         <li>
                             cache, frame or link to the Website without our
@@ -330,12 +334,13 @@ export default function Terms() {
                     <p>
                         We may place advertisements such as banners, java
                         applets and/or such other materials for the purposes of
-                        advertising product and/or services ("Advertisements")
-                        in different locations on the Website and at different
-                        points during your use of the Website. These locations
-                        and points may change from time to time. You will not be
-                        entitled to receive any payment, fee and/or commission
-                        in respect of the Advertisements.
+                        advertising product and/or services
+                        (&quot;Advertisements&quot;) in different locations on
+                        the Website and at different points during your use of
+                        the Website. These locations and points may change from
+                        time to time. You will not be entitled to receive any
+                        payment, fee and/or commission in respect of the
+                        Advertisements.
                     </p>
 
                     <h2 className="text-2xl font-medium text-black mt-6 mb-3 font-poppins">
@@ -344,11 +349,11 @@ export default function Terms() {
                     <p>
                         The Website may contain links to other sites which are
                         neither maintained nor controlled by Hyan Consulting
-                        ("External Sites"), or may contain content posted on or
-                        via the Website by third parties. We have no control
-                        over the contents of those sites or resources and assume
-                        no responsibility for the content, privacy policies, or
-                        practices of any third party websites.
+                        (&quot;External Sites&quot;), or may contain content
+                        posted on or via the Website by third parties. We have
+                        no control over the contents of those sites or resources
+                        and assume no responsibility for the content, privacy
+                        policies, or practices of any third party websites.
                     </p>
                     <p>
                         We make no representations, warranties or guarantees
@@ -385,9 +390,9 @@ export default function Terms() {
                         Hyan Consulting takes certain industry-accepted
                         precautions to secure the Website or portions thereof.
                         During your use of the Website, Hyan Consulting may
-                        issue to and request from your computer "cookies" to
-                        enable more convenient browsing when you revisit the
-                        Website.
+                        issue to and request from your computer
+                        &quot;cookies&quot; to enable more convenient browsing
+                        when you revisit the Website.
                     </p>
 
                     <h2 className="text-2xl font-medium text-black mt-6 mb-3 font-poppins">
@@ -434,11 +439,12 @@ export default function Terms() {
                         11. LIMITATIONS ON LIABILITY AND GENERAL DISCLAIMERS
                     </h2>
                     <p>
-                        This Website and its Contents are provided "as is" and
-                        "as available" with no warranties whatsoever. To the
-                        maximum extent permitted by applicable laws, Hyan
-                        Consulting makes no guarantee, representation or
-                        warranty of any kind, whether express or implied:
+                        This Website and its Contents are provided &quot;as
+                        is&quot; and &quot;as available&quot; with no warranties
+                        whatsoever. To the maximum extent permitted by
+                        applicable laws, Hyan Consulting makes no guarantee,
+                        representation or warranty of any kind, whether express
+                        or implied:
                     </p>
                     <ul className="list-disc pl-6 mt-2 mb-4">
                         <li>
@@ -628,13 +634,13 @@ export default function Terms() {
                         We are not liable for any loss, damage or penalty
                         resulting from delays or failures in performance if the
                         delay or failure results from events beyond our
-                        reasonable control (a "Force Majeure Event"). Force
-                        Majeure Events shall include, but are not limited to,
-                        acts of God, war, hostility, invasion, act of foreign
-                        enemies, rebellion, revolution, riots, civil war,
-                        disturbances, requisitioning or other acts of civil or
-                        military authority, laws, regulations, acts or orders of
-                        any governmental authority, body, agency or official,
+                        reasonable control (a &quot;Force Majeure Event&quot;).
+                        Force Majeure Events shall include, but are not limited
+                        to, acts of God, war, hostility, invasion, act of
+                        foreign enemies, rebellion, revolution, riots, civil
+                        war, disturbances, requisitioning or other acts of civil
+                        or military authority, laws, regulations, acts or orders
+                        of any governmental authority, body, agency or official,
                         fires, inclement weather, rain or floods (however
                         caused), strikes, lock-outs or other labour disputes,
                         epidemics, pandemics, outbreaks, embargoes, breakdown of
@@ -650,13 +656,13 @@ export default function Terms() {
                         You shall, at all times, keep confidential all
                         information provided by us or on our behalf that is
                         marked or is by its nature confidential or proprietary
-                        ("Confidential Information"). You shall not disclose or
-                        permit to be disclosed the Confidential Information to
-                        any third party without our prior written consent. These
-                        obligations of confidentiality do not apply to
-                        information that is publicly available, already in your
-                        possession without confidentiality restrictions or
-                        required to be disclosed by order of a court or the
+                        (&quot;Confidential Information&quot;). You shall not
+                        disclose or permit to be disclosed the Confidential
+                        Information to any third party without our prior written
+                        consent. These obligations of confidentiality do not
+                        apply to information that is publicly available, already
+                        in your possession without confidentiality restrictions
+                        or required to be disclosed by order of a court or the
                         relevant governmental authorities.
                     </p>
 

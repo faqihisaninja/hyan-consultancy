@@ -108,12 +108,12 @@ export default function About() {
                                 overall business management at Hyan Consulting
                                 and specializes in senior placements for Legal,
                                 Compliance and Corporate Secretarial positions.
-                                Helmi holds a Bachelor's degree in Communication
-                                Studies (Hons) from Wee Kim Wee School of
-                                Communication and Information at Nanyang
-                                Technological University. Prior to being a
-                                recruiter, Helmi worked in the media industry as
-                                a producer and director. His works have been
+                                Helmi holds a Bachelor&apos;s degree in
+                                Communication Studies (Hons) from Wee Kim Wee
+                                School of Communication and Information at
+                                Nanyang Technological University. Prior to being
+                                a recruiter, Helmi worked in the media industry
+                                as a producer and director. His works have been
                                 shown on Channel News Asia, BBC, Suria and also
                                 premiered at the Singapore International Film
                                 Festival. Outside of work, Helmi regularly
@@ -140,12 +140,12 @@ export default function About() {
                                 recruitment agency. Kate focuses on roles in
                                 legal, financial compliance, anti-bribery
                                 compliance, data privacy and protection,
-                                governance, and risk. Kate holds a Bachelor's
-                                degree in Engineering (Material Science &
-                                Engineering) from Nanyang Technological
-                                University. In her free time, she volunteers at
-                                a food bank and enjoys staying active through
-                                workouts at the gym and pilates.
+                                governance, and risk. Kate holds a
+                                Bachelor&apos;s degree in Engineering (Material
+                                Science & Engineering) from Nanyang
+                                Technological University. In her free time, she
+                                volunteers at a food bank and enjoys staying
+                                active through workouts at the gym and pilates.
                             </p>
                         </div>
                     </div>
