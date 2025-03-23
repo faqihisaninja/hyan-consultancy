@@ -45,6 +45,113 @@ export default function About() {
                 </div>
             </section>
 
+            {/* Our Consultants */}
+            <section className="py-16 px-4 md:px-8">
+                <div className="container max-w-6xl mx-auto">
+                    <h2 className="text-3xl text-gray-800 mb-10 font-medium font-poppins text-center">
+                        Meet Our Consultants
+                    </h2>
+
+                    {/* Photos and Titles */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+                        {/* Consultant 1 */}
+                        <div className="flex flex-col items-center">
+                            <div className="relative w-56 h-56 rounded-full overflow-hidden mb-4">
+                                <Image
+                                    src="/consultant-placeholder-1.jpg"
+                                    alt="Helmi Ali"
+                                    fill
+                                    className="object-cover"
+                                />
+                            </div>
+                            <h3 className="text-2xl font-semibold text-gray-800 mb-1 text-center">
+                                Helmi Ali
+                            </h3>
+                            <h4 className="text-lg text-gray-600 text-center">
+                                Director
+                            </h4>
+                        </div>
+
+                        {/* Consultant 2 */}
+                        <div className="flex flex-col items-center">
+                            <div className="relative w-56 h-56 rounded-full overflow-hidden mb-4">
+                                <Image
+                                    src="/consultant-placeholder-2.jpg"
+                                    alt="Kate Chang"
+                                    fill
+                                    className="object-cover"
+                                />
+                            </div>
+                            <h3 className="text-2xl font-semibold text-gray-800 mb-1 text-center">
+                                Kate Chang
+                            </h3>
+                            <h4 className="text-lg text-gray-600 text-center">
+                                Director
+                            </h4>
+                        </div>
+                    </div>
+
+                    {/* Detailed Biographies */}
+                    <div className="grid grid-cols-1 gap-12">
+                        {/* Helmi's Bio */}
+                        <div>
+                            <h3 className="text-2xl font-semibold text-gray-800 mb-3 border-b pb-2">
+                                Helmi Ali, Director
+                            </h3>
+                            <p className="text-gray-700 leading-relaxed">
+                                A well-experienced specialist legal recruiter,
+                                Helmi is Co-Founder at Hyan Consulting. He
+                                started in legal recruitment in 2011 at a
+                                leading regional legal recruitment agency. Since
+                                then, he has started and led recruitment teams
+                                in Singapore and Malaysia. Helmi oversees
+                                overall business management at Hyan Consulting
+                                and specializes in senior placements for Legal,
+                                Compliance and Corporate Secretarial positions.
+                                Helmi holds a Bachelor's degree in Communication
+                                Studies (Hons) from Wee Kim Wee School of
+                                Communication and Information at Nanyang
+                                Technological University. Prior to being a
+                                recruiter, Helmi worked in the media industry as
+                                a producer and director. His works have been
+                                shown on Channel News Asia, BBC, Suria and also
+                                premiered at the Singapore International Film
+                                Festival. Outside of work, Helmi regularly
+                                volunteers for a food bank and he is an
+                                appointed core team member of the Yayasan
+                                Mendaki Professional Network for Human Resource
+                                which seeks to uplift the standards of HR
+                                professionals. Helmi is also an avid field
+                                hockey player.
+                            </p>
+                        </div>
+
+                        {/* Kate's Bio */}
+                        <div>
+                            <h3 className="text-2xl font-semibold text-gray-800 mb-3 border-b pb-2">
+                                Kate Chang, Director
+                            </h3>
+                            <p className="text-gray-700 leading-relaxed">
+                                Kate is a Co-Founder at Hyan Consulting. With
+                                more than a decade of industry experience, Kate
+                                is a distinguished legal recruiter recognised
+                                for her unmatched expertise. She started her
+                                recruitment career in 2013 at a leading regional
+                                recruitment agency. Kate focuses on roles in
+                                legal, financial compliance, anti-bribery
+                                compliance, data privacy and protection,
+                                governance, and risk. Kate holds a Bachelor's
+                                degree in Engineering (Material Science &
+                                Engineering) from Nanyang Technological
+                                University. In her free time, she volunteers at
+                                a food bank and enjoys staying active through
+                                workouts at the gym and pilates.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* Our Reach */}
             <section className="bg-gray-50 pt-16 px-4 md:px-8">
                 <div className="container max-w-6xl mx-auto">
