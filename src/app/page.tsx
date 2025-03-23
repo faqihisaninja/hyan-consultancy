@@ -15,7 +15,7 @@ export default function Home() {
     return (
         <main className="min-h-screen bg-white">
             {/* Hero Section */}
-            <section className="h-[calc(100dvh-72px)] py-20 px-4 md:px-8 relative overflow-hidden">
+            <section className="h-[calc(100dvh-72px)] py-20 px-4 md:px-8 relative overflow-hidden flex items-center">
                 {/* Background Graphics */}
                 <div className="absolute inset-0 z-0">
                     <Image
@@ -28,12 +28,12 @@ export default function Home() {
                 </div>
 
                 {/* Content */}
-                <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center relative z-10">
-                    <div className="text-center md:text-left">
+                <div className="max-w-6xl mx-auto w-full relative z-10">
+                    <div className="text-center md:text-left max-w-lg md:max-w-xl">
                         <h1 className="text-4xl md:text-5xl/[3.5rem] font-bold text-black mb-6 font-poppins">
                             Bridging Businesses With The Right Talent
                         </h1>
-                        <p className="text-xl md:text-2xl text-black max-w-2xl mb-8">
+                        <p className="text-xl md:text-2xl text-black mb-8">
                             Specialised Recruitment Solutions For Leading
                             Organisations
                         </p>
