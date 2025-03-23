@@ -27,9 +27,9 @@ const quicksandBold = localFont({
 });
 
 export const metadata: Metadata = {
-    title: "Hyan Consultancy - HR Solutions",
+    title: "Hyan Consulting - HR Solutions",
     description:
-        "Expert HR consultancy services tailored to your business needs",
+        "Expert HR consulting services tailored to your business needs",
 };
 
 export default function RootLayout({

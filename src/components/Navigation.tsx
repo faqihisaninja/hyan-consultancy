@@ -190,7 +190,7 @@ export default function Navigation() {
                             Services
                         </Link>
                         <Link
-                            href="https://wa.me/6512345678"
+                            href="https://wa.me/6597631424"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="bg-[#00838F] text-white px-4 py-2 rounded-lg flex items-center w-fit"

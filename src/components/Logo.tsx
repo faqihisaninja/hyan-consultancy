@@ -7,7 +7,7 @@ export default function Logo() {
                         HYAN
                     </h1>
                     <span className="font-quicksand-bold text-center text-black text-[8px] uppercase tracking-widest">
-                        CONSULTANCY
+                        CONSULTING
                     </span>
                 </div>
             </div>

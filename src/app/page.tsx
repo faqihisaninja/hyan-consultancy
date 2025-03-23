@@ -238,8 +238,8 @@ export default function Home() {
                                             Address
                                         </h4>
                                         <p className="text-gray-600">
-                                            123 Business Street, Singapore
-                                            511213
+                                            111 North Bridge Road, Singapore
+                                            179098
                                         </p>
                                     </div>
                                 </div>
@@ -260,7 +260,7 @@ export default function Home() {
                                             Phone
                                         </h4>
                                         <p className="text-gray-600">
-                                            +65 1234 5678
+                                            +65 9763 1424
                                         </p>
                                     </div>
                                 </div>
