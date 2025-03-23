@@ -15,7 +15,7 @@ export default function Home() {
     return (
         <main className="min-h-screen bg-white">
             {/* Hero Section */}
-            <section className="py-20 px-4 md:px-8 relative overflow-hidden">
+            <section className="h-[calc(100dvh-72px)] py-20 px-4 md:px-8 relative overflow-hidden">
                 {/* Background Graphics */}
                 <div className="absolute inset-0 z-0">
                     <Image
@@ -44,15 +44,6 @@ export default function Home() {
                             Find Talent Now
                         </button>
                     </div>
-                    {/* <div className="hidden md:block relative h-96 rounded-lg overflow-hidden shadow-lg">
-                        <Image
-                            src="/hero-handshake.jpg"
-                            alt="HR Professionals in a meeting"
-                            fill
-                            style={{ objectFit: "cover" }}
-                            priority
-                        />
-                    </div> */}
                 </div>
             </section>
 
@@ -72,7 +63,7 @@ export default function Home() {
                                 top-tier talent for critical positions on a
                                 contingent basis, ensuring that our clients
                                 acquire the expertise and vision they need to
-                                thrive
+                                thrive.
                             </p>
                         </div>
                         <div className="p-6 rounded-lg border border-[#26D7FD] shadow-md">
@@ -84,7 +75,7 @@ export default function Home() {
                                 encompass the entire hiring process, from
                                 sourcing and screening candidates to onboarding
                                 and integration, providing a tailored and
-                                personalized approach to talent acquisition
+                                personalized approach to talent acquisition.
                             </p>
                         </div>
                         <div className="p-6 rounded-lg border border-[#26D7FD] shadow-md">
@@ -96,7 +87,7 @@ export default function Home() {
                                 individuals transitioning from one career
                                 opportunity to another, empowering them with the
                                 tools and resources they need to navigate the
-                                job market successfully
+                                job market successfully.
                             </p>
                         </div>
                     </div>
@@ -135,8 +126,8 @@ export default function Home() {
                                         knowledge in legal recruitment,
                                         leveraging deep industry insights and
                                         networks to deliver exceptional results
-                                        across Singapore, Malaysia Hong Kong and
-                                        Southeast Asia.
+                                        across Singapore, Malaysia, Hong Kong
+                                        and Southeast Asia.
                                     </p>
                                 </div>
                             </div>
@@ -315,7 +306,7 @@ export default function Home() {
                                             Email
                                         </h4>
                                         <p className="text-gray-600">
-                                            contact@hyanconsultancy.com
+                                            contact@hyanconsulting.com
                                         </p>
                                     </div>
                                 </div>
