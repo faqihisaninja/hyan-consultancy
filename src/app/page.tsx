@@ -22,14 +22,17 @@ export default function Home() {
                         src="/hero-handshake.jpg"
                         alt="Background pattern"
                         fill
-                        className="object-cover object-top opacity-70"
+                        className="object-cover object-top opacity-40 md:opacity-70"
                         priority
                     />
                 </div>
 
+                {/* Overlay gradient */}
+                <div className="absolute inset-0 bg-gradient-to-r from-white via-white/80 to-transparent z-0"></div>
+
                 {/* Content */}
-                <div className="max-w-6xl mx-auto w-full relative z-10">
-                    <div className="text-center md:text-left max-w-lg md:max-w-xl">
+                <div className="max-w-6xl mx-auto w-full relative z-10 grid md:grid-cols-5 gap-8">
+                    <div className="md:col-span-3 text-center md:text-left">
                         <h1 className="text-4xl md:text-5xl/[3.5rem] font-bold text-black mb-6 font-poppins">
                             Bridging Businesses With The Right Talent
                         </h1>
