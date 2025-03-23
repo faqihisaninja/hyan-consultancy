@@ -29,8 +29,8 @@ export default function About() {
             </div>
 
             {/* Who We Are */}
-            <section className="pt-16">
-                <div className="container mx-auto px-4">
+            <section className="pt-16 px-4 md:px-8">
+                <div className="container max-w-6xl mx-auto">
                     <h2 className="text-3xl text-gray-800 mb-6 font-medium font-poppins">
                         Who We Are
                     </h2>
@@ -46,8 +46,8 @@ export default function About() {
             </section>
 
             {/* Our Reach */}
-            <section className="bg-gray-50 pt-16">
-                <div className="container mx-auto px-4">
+            <section className="bg-gray-50 pt-16 px-4 md:px-8">
+                <div className="container max-w-6xl mx-auto">
                     <h2 className="text-3xl text-gray-800 mb-6 font-medium font-poppins">
                         Our Reach
                     </h2>
@@ -62,8 +62,8 @@ export default function About() {
             </section>
 
             {/* Our Specialization */}
-            <section className="pt-16">
-                <div className="container mx-auto px-4">
+            <section className="pt-16 px-4 md:px-8">
+                <div className="container max-w-6xl mx-auto">
                     <h2 className="text-3xl text-gray-800 mb-6 font-medium font-poppins">
                         Our Specialization in Legal & Compliance Recruitment
                     </h2>
@@ -91,8 +91,8 @@ export default function About() {
             </section>
 
             {/* Why Choose Us */}
-            <section className="bg-gray-50 py-16">
-                <div className="container mx-auto px-4">
+            <section className="bg-gray-50 py-16 px-4 md:px-8">
+                <div className="container max-w-6xl mx-auto">
                     <h2 className="text-3xl text-gray-800 mb-6 font-medium font-poppins">
                         Why Choose Us
                     </h2>

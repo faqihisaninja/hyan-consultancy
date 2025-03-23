@@ -31,7 +31,7 @@ export default function Home() {
                 <div className="absolute inset-0 bg-gradient-to-r from-white via-white/80 to-transparent z-0"></div>
 
                 {/* Content */}
-                <div className="max-w-6xl mx-auto w-full relative z-10 grid md:grid-cols-5 gap-8">
+                <div className="container max-w-6xl mx-auto w-full relative z-10 grid md:grid-cols-5 gap-8">
                     <div className="md:col-span-3 text-center md:text-left">
                         <h1 className="text-4xl md:text-5xl/[3.5rem] font-bold text-black mb-6 font-poppins">
                             Bridging Businesses With The Right Talent
@@ -52,7 +52,7 @@ export default function Home() {
 
             {/* Services Section */}
             <section id="services" className="py-16 px-4 md:px-8 bg-white">
-                <div className="max-w-6xl mx-auto">
+                <div className="container max-w-6xl mx-auto">
                     <h2 className="text-3xl font-medium text-black mb-12 font-poppins text-center md:text-left">
                         Our Services
                     </h2>
@@ -98,8 +98,8 @@ export default function Home() {
             </section>
 
             {/* Why Choose Hyan Section */}
-            <section className="py-16 px-6 md:px-8 bg-[#F8FBFB]">
-                <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <section className="py-16 px-4 md:px-8 bg-[#F8FBFB]">
+                <div className="container max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
                     <div>
                         <h2 className="text-3xl font-medium text-black mb-6 font-poppins text-center md:text-left">
                             Why Choose Hyan
@@ -202,7 +202,7 @@ export default function Home() {
 
             {/* Contact Form Section */}
             <section id="contact" className="py-16 px-4 md:px-8 bg-white">
-                <div className="max-w-6xl mx-auto">
+                <div className="container max-w-6xl mx-auto">
                     <div className="grid md:grid-cols-2 gap-12">
                         {/* Contact Information */}
                         <div className="space-y-6">
