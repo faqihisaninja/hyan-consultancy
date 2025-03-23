@@ -39,7 +39,7 @@ export default function Home() {
                         </p>
                         <button
                             onClick={scrollToContact}
-                            className="bg-[#26D7FD] text-white py-3 px-8 rounded-lg hover:bg-[#1ba8ca] transition-colors font-medium text-lg shadow-md"
+                            className="bg-[#00838F] text-white py-3 px-8 rounded-lg hover:bg-[#1ba8ca] transition-colors font-medium text-lg shadow-md"
                         >
                             Find Talent Now
                         </button>
@@ -54,7 +54,7 @@ export default function Home() {
                         Our Services
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        <div className="p-6 rounded-lg border border-[#26D7FD] shadow-md">
+                        <div className="p-6 rounded-lg border border-[#00838F] shadow-md">
                             <h3 className="text-xl font-medium text-black mb-4 font-poppins">
                                 Executive Search
                             </h3>
@@ -66,7 +66,7 @@ export default function Home() {
                                 thrive.
                             </p>
                         </div>
-                        <div className="p-6 rounded-lg border border-[#26D7FD] shadow-md">
+                        <div className="p-6 rounded-lg border border-[#00838F] shadow-md">
                             <h3 className="text-xl font-medium text-black mb-4 font-poppins">
                                 Retained Search
                             </h3>
@@ -78,7 +78,7 @@ export default function Home() {
                                 personalized approach to talent acquisition.
                             </p>
                         </div>
-                        <div className="p-6 rounded-lg border border-[#26D7FD] shadow-md">
+                        <div className="p-6 rounded-lg border border-[#00838F] shadow-md">
                             <h3 className="text-xl font-medium text-black mb-4 font-poppins">
                                 Outplacement Services
                             </h3>
@@ -103,7 +103,7 @@ export default function Home() {
                         </h2>
                         <div className="space-y-4">
                             <div className="flex items-start">
-                                <div className="bg-[#26D7FD] rounded-full p-1 mr-3 mt-1">
+                                <div className="bg-[#00838F] rounded-full p-1 mr-3 mt-1">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         className="h-4 w-4 text-white"
@@ -132,7 +132,7 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="flex items-start">
-                                <div className="bg-[#26D7FD] rounded-full p-1 mr-3 mt-1">
+                                <div className="bg-[#00838F] rounded-full p-1 mr-3 mt-1">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         className="h-4 w-4 text-white"
@@ -159,7 +159,7 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="flex items-start">
-                                <div className="bg-[#26D7FD] rounded-full p-1 mr-3 mt-1">
+                                <div className="bg-[#00838F] rounded-full p-1 mr-3 mt-1">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         className="h-4 w-4 text-white"
@@ -184,33 +184,6 @@ export default function Home() {
                                     </p>
                                 </div>
                             </div>
-                            {/* <div className="flex items-start">
-                                <div className="bg-[#26D7FD] rounded-full p-1 mr-3 mt-1">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-4 w-4 text-white"
-                                        viewBox="0 0 20 20"
-                                        fill="currentColor"
-                                    >
-                                        <path
-                                            fillRule="evenodd"
-                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                            clipRule="evenodd"
-                                        />
-                                    </svg>
-                                </div>
-                                <div>
-                                    <h3 className="text-xl font-medium text-black font-poppins">
-                                        Regional Reach and Local Expertise
-                                    </h3>
-                                    <p className="text-gray-600 mt-1">
-                                        As part of a boutique network, we offer
-                                        access to a global talent pool and
-                                        seamless recruitment across Asia and
-                                        beyond.
-                                    </p>
-                                </div>
-                            </div> */}
                         </div>
                     </div>
                     <div className="hidden md:block relative h-80 md:h-96 rounded-lg overflow-hidden shadow-lg">
@@ -243,7 +216,7 @@ export default function Home() {
 
                             <div className="space-y-4">
                                 <div className="flex items-start">
-                                    <div className="bg-[#26D7FD] rounded-full p-2 mr-4 mt-1">
+                                    <div className="bg-[#00838F] rounded-full p-2 mr-4 mt-1">
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             className="h-5 w-5 text-white"
@@ -269,7 +242,7 @@ export default function Home() {
                                 </div>
 
                                 <div className="flex items-start">
-                                    <div className="bg-[#26D7FD] rounded-full p-2 mr-4 mt-1">
+                                    <div className="bg-[#00838F] rounded-full p-2 mr-4 mt-1">
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             className="h-5 w-5 text-white"
@@ -290,7 +263,7 @@ export default function Home() {
                                 </div>
 
                                 <div className="flex items-start">
-                                    <div className="bg-[#26D7FD] rounded-full p-2 mr-4 mt-1">
+                                    <div className="bg-[#00838F] rounded-full p-2 mr-4 mt-1">
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             className="h-5 w-5 text-white"
@@ -327,7 +300,7 @@ export default function Home() {
                                         type="text"
                                         id="name"
                                         required
-                                        className="w-full p-3 text-[#333] border border-[#26D7FD] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#26D7FD]"
+                                        className="w-full p-3 text-[#333] border border-[#00838F] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#00838F]"
                                     />
                                 </div>
                                 <div>
@@ -341,7 +314,7 @@ export default function Home() {
                                         type="email"
                                         id="email"
                                         required
-                                        className="w-full p-3 text-[#333] border border-[#26D7FD] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#26D7FD]"
+                                        className="w-full p-3 text-[#333] border border-[#00838F] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#00838F]"
                                     />
                                 </div>
                                 <div>
@@ -354,7 +327,7 @@ export default function Home() {
                                     <input
                                         type="text"
                                         id="subject"
-                                        className="w-full p-3 text-[#333] border border-[#26D7FD] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#26D7FD]"
+                                        className="w-full p-3 text-[#333] border border-[#00838F] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#00838F]"
                                     />
                                 </div>
                                 <div>
@@ -368,12 +341,12 @@ export default function Home() {
                                         id="message"
                                         rows={5}
                                         required
-                                        className="w-full p-3 text-[#333] resize-none border border-[#26D7FD] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#26D7FD]"
+                                        className="w-full p-3 text-[#333] resize-none border border-[#00838F] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#00838F]"
                                     ></textarea>
                                 </div>
                                 <button
                                     type="submit"
-                                    className="w-full bg-[#26D7FD] text-white py-3 px-6 rounded-lg hover:bg-[#1ba8ca] transition-colors font-medium"
+                                    className="w-full bg-[#00838F] text-white py-3 px-6 rounded-lg hover:bg-[#1ba8ca] transition-colors font-medium"
                                 >
                                     Send Message
                                 </button>

@@ -108,7 +108,7 @@ export default function Navigation() {
                                 href="https://wa.me/6512345678"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="bg-[#26D7FD] text-white px-4 py-2 rounded-lg hover:bg-[#1ba8ca] transition-colors flex items-center"
+                                className="bg-[#00838F] text-white px-4 py-2 rounded-lg hover:bg-[#1ba8ca] transition-colors flex items-center"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -193,7 +193,7 @@ export default function Navigation() {
                             href="https://wa.me/6512345678"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="bg-[#26D7FD] text-white px-4 py-2 rounded-lg flex items-center w-fit"
+                            className="bg-[#00838F] text-white px-4 py-2 rounded-lg flex items-center w-fit"
                             onClick={() => setIsMobileMenuOpen(false)}
                         >
                             <svg

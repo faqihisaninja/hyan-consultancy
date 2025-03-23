@@ -36,7 +36,7 @@ export default function Footer() {
     }, [shouldScroll, pathname]);
 
     return (
-        <footer className="bg-[#26D7FD] text-white py-8 px-4 md:px-8">
+        <footer className="bg-[#00838F] text-white py-8 px-4 md:px-8">
             <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
                 <div>
                     <h2 className="text-2xl font-bold mb-4">
@@ -76,7 +76,7 @@ export default function Footer() {
                     <div className="flex space-x-4 mt-4 md:mt-0">
                         {/* <Link
                             href="#"
-                            className="bg-white p-2 rounded-full text-[#26D7FD] hover:bg-gray-100 transition-colors"
+                            className="bg-white p-2 rounded-full text-[#00838F] hover:bg-gray-100 transition-colors"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -89,7 +89,7 @@ export default function Footer() {
                         </Link>
                         <Link
                             href="#"
-                            className="bg-white p-2 rounded-full text-[#26D7FD] hover:bg-gray-100 transition-colors"
+                            className="bg-white p-2 rounded-full text-[#00838F] hover:bg-gray-100 transition-colors"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -102,7 +102,7 @@ export default function Footer() {
                         </Link> */}
                         <Link
                             href="#"
-                            className="bg-white p-2 rounded-full text-[#26D7FD] hover:bg-gray-100 transition-colors"
+                            className="bg-white p-2 rounded-full text-[#00838F] hover:bg-gray-100 transition-colors"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -117,7 +117,7 @@ export default function Footer() {
                             href="https://wa.me/6512345678"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="bg-white p-2 rounded-full text-[#26D7FD] hover:bg-gray-100 transition-colors"
+                            className="bg-white p-2 rounded-full text-[#00838F] hover:bg-gray-100 transition-colors"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
