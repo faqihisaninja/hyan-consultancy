@@ -44,7 +44,7 @@ export default function Navigation() {
                 <div className="flex justify-between items-center">
                     <Link
                         href="/"
-                        className="hover:opacity-90 transition-opacity"
+                        className="hover:opacity-90 transition-opacity mt-2"
                     >
                         <Logo />
                     </Link>

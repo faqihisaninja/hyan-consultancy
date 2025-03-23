@@ -14,6 +14,8 @@ export default {
       },
       fontFamily: {
         poppins: ['var(--font-poppins)'],
+        'dream-avenue': ['var(--font-dream-avenue)'],
+        'quicksand-bold': ['var(--font-quicksand-bold)']
       },
     },
   },
