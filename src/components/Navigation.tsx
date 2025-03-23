@@ -79,9 +79,9 @@ export default function Navigation() {
                                 href="/"
                                 className={`${
                                     pathname === "/"
-                                        ? "text-[#1ba8ca]"
+                                        ? "text-[#00838F]"
                                         : "text-gray-600 "
-                                } hover:text-[#1ba8ca] }`}
+                                } hover:text-[#00838F] }`}
                             >
                                 Home
                             </Link>
@@ -89,15 +89,15 @@ export default function Navigation() {
                                 href="/about"
                                 className={`${
                                     pathname === "/about"
-                                        ? "text-[#1ba8ca]"
+                                        ? "text-[#00838F]"
                                         : "text-gray-600"
-                                } hover:text-[#1ba8ca] }`}
+                                } hover:text-[#00838F] }`}
                             >
                                 About
                             </Link>
                             <Link
                                 href="/services"
-                                className="text-gray-600 hover:text-[#1ba8ca]"
+                                className="text-gray-600 hover:text-[#00838F]"
                                 onClick={scrollToServices}
                             >
                                 Services
@@ -108,7 +108,7 @@ export default function Navigation() {
                                 href="https://wa.me/6512345678"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="bg-[#00838F] text-white px-4 py-2 rounded-lg hover:bg-[#1ba8ca] transition-colors flex items-center"
+                                className="bg-[#00838F] text-white px-4 py-2 rounded-lg hover:bg-[#0097A7] active:bg-[#006D75] transition-colors flex items-center"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -161,9 +161,9 @@ export default function Navigation() {
                             href="/"
                             className={`py-2 ${
                                 pathname === "/"
-                                    ? "text-[#93EBFE]"
+                                    ? "text-[#00838F]"
                                     : "text-gray-600 "
-                            } hover:text-[#93EBFE] }`}
+                            } hover:text-[#00838F] }`}
                             onClick={() => setIsMobileMenuOpen(false)}
                         >
                             Home
@@ -172,9 +172,9 @@ export default function Navigation() {
                             href="/about"
                             className={`py-2 ${
                                 pathname === "/about"
-                                    ? "text-[#93EBFE]"
+                                    ? "text-[#00838F]"
                                     : "text-gray-600 "
-                            } hover:text-[#93EBFE] }`}
+                            } hover:text-[#00838F] }`}
                             onClick={() => setIsMobileMenuOpen(false)}
                         >
                             About

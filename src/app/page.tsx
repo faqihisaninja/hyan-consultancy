@@ -39,7 +39,7 @@ export default function Home() {
                         </p>
                         <button
                             onClick={scrollToContact}
-                            className="bg-[#00838F] text-white py-3 px-8 rounded-lg hover:bg-[#1ba8ca] transition-colors font-medium text-lg shadow-md"
+                            className="bg-[#00838F] hover:bg-[#0097A7] active:bg-[#006D75] text-white py-3 px-8 rounded-lg transition-colors font-medium text-lg shadow-md"
                         >
                             Find Talent Now
                         </button>
@@ -346,7 +346,7 @@ export default function Home() {
                                 </div>
                                 <button
                                     type="submit"
-                                    className="w-full bg-[#00838F] text-white py-3 px-6 rounded-lg hover:bg-[#1ba8ca] transition-colors font-medium"
+                                    className="w-full bg-[#00838F] hover:bg-[#0097A7] active:bg-[#006D75] text-white py-3 px-6 rounded-lg transition-colors font-medium"
                                 >
                                     Send Message
                                 </button>
