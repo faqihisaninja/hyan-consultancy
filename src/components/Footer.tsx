@@ -41,7 +41,8 @@ export default function Footer() {
                 <div>
                     <h2 className="text-2xl font-bold mb-4">Hyan Consulting</h2>
                     <p className="text-gray">
-                        Expert HR solutions tailored to your business needs
+                        Specialised Recruitment Solutions For Leading
+                        Organisations
                     </p>
                 </div>
                 <div>
