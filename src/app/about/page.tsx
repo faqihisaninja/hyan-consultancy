@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function About() {
     return (
@@ -52,17 +53,21 @@ export default function About() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-16">
                         {/* Consultant 1 */}
                         <div className="flex flex-col items-center">
-                            <div className="relative w-56 h-56 rounded-full overflow-hidden mb-4">
-                                <Image
-                                    src="/consultant-placeholder-1.jpg"
-                                    alt="Helmi Ali"
-                                    fill
-                                    className="object-cover"
-                                />
-                            </div>
-                            <h3 className="text-2xl font-semibold text-gray-800 mb-1 text-center">
-                                Helmi Ali
-                            </h3>
+                            <Link href="/consultants">
+                                <div className="relative w-56 h-56 rounded-full overflow-hidden mb-4">
+                                    <Image
+                                        src="/consultant-placeholder-1.jpg"
+                                        alt="Helmi Ali"
+                                        fill
+                                        className="object-cover"
+                                    />
+                                </div>
+                            </Link>
+                            <Link href="/consultants">
+                                <h3 className="text-2xl font-semibold text-gray-800 mb-1 text-center hover:underline">
+                                    Helmi Ali
+                                </h3>
+                            </Link>
                             <h4 className="text-lg text-gray-600 text-center">
                                 Director
                             </h4>
@@ -70,17 +75,21 @@ export default function About() {
 
                         {/* Consultant 2 */}
                         <div className="flex flex-col items-center">
-                            <div className="relative w-56 h-56 rounded-full overflow-hidden mb-4">
-                                <Image
-                                    src="/consultant-placeholder-2.jpg"
-                                    alt="Kate Chang"
-                                    fill
-                                    className="object-cover"
-                                />
-                            </div>
-                            <h3 className="text-2xl font-semibold text-gray-800 mb-1 text-center">
-                                Kate Chang
-                            </h3>
+                            <Link href="/consultants">
+                                <div className="relative w-56 h-56 rounded-full overflow-hidden mb-4">
+                                    <Image
+                                        src="/consultant-placeholder-2.jpg"
+                                        alt="Kate Chang"
+                                        fill
+                                        className="object-cover"
+                                    />
+                                </div>
+                            </Link>
+                            <Link href="/consultants">
+                                <h3 className="text-2xl font-semibold text-gray-800 mb-1 text-center hover:underline">
+                                    Kate Chang
+                                </h3>
+                            </Link>
                             <h4 className="text-lg text-gray-600 text-center">
                                 Director
                             </h4>
