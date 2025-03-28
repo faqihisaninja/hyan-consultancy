@@ -86,7 +86,7 @@ export default function Footer() {
 
                     <div className="flex space-x-4 mt-4 md:mt-0">
                         <Link
-                            href="#"
+                            href="https://www.linkedin.com/company/hyan-consulting/"
                             className="bg-white p-2 rounded-full text-[#00838F] hover:bg-gray-100 transition-colors"
                         >
                             <svg

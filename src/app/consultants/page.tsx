@@ -9,7 +9,7 @@ export default function Consultants() {
             image: "/helmi.jpg", // Using the same image names from the about page
             phone: "+65 1234 5678",
             email: "helmi@hyanconsulting.com",
-            linkedIn: "https://linkedin.com/in/helmi-ali",
+            linkedIn: "https://www.linkedin.com/in/helmi-ali-8ba64b3a/",
             registrationNumber: "REG12345",
             licenseNumber: "LIC98765",
             biography:
@@ -20,7 +20,8 @@ export default function Consultants() {
             image: "/kate.jpg", // Using the same image names from the about page
             phone: "+65 8765 4321",
             email: "kate@hyanconsulting.com",
-            linkedIn: "https://linkedin.com/in/kate-chang",
+            linkedIn:
+                "https://www.linkedin.com/in/kate-chang-%E9%83%91%E5%88%9D%E8%89%B3-bab78a98/",
             registrationNumber: "REG67890",
             licenseNumber: "LIC12345",
             biography:
