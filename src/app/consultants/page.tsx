@@ -6,7 +6,7 @@ export default function Consultants() {
     const consultants = [
         {
             name: "Helmi Ali",
-            image: "/consultant-placeholder-1.jpg", // Using the same image names from the about page
+            image: "/helmi.jpg", // Using the same image names from the about page
             phone: "+65 1234 5678",
             email: "helmi@hyanconsulting.com",
             linkedIn: "https://linkedin.com/in/helmi-ali",
@@ -17,7 +17,7 @@ export default function Consultants() {
         },
         {
             name: "Kate Chang",
-            image: "/consultant-placeholder-2.jpg", // Using the same image names from the about page
+            image: "/kate.jpg", // Using the same image names from the about page
             phone: "+65 8765 4321",
             email: "kate@hyanconsulting.com",
             linkedIn: "https://linkedin.com/in/kate-chang",

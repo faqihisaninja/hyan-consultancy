@@ -47,7 +47,7 @@ export default function About() {
             </section>
 
             {/* Our Consultants */}
-            <section className="pt-16 px-4 md:px-8">
+            <section className="px-4 md:px-8">
                 <div className="container max-w-6xl mx-auto">
                     {/* Photos and Titles */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-16">
@@ -56,10 +56,10 @@ export default function About() {
                             <div className="w-full md:w-2/3 mx-auto bg-[#00838F] rounded-lg p-7 shadow-md">
                                 <div className="relative w-56 h-56 rounded-full overflow-hidden mb-4 mx-auto">
                                     <Image
-                                        src="/consultant-placeholder-1.jpg"
+                                        src="/helmi.jpg"
                                         alt="Helmi Ali"
                                         fill
-                                        className="object-cover"
+                                        className="object-cover object-top"
                                     />
                                 </div>
                                 <h2 className="text-3xl font-semibold text-white mb-2 text-center">
@@ -85,10 +85,10 @@ export default function About() {
                             <div className="w-full md:w-2/3 mx-auto bg-[#00838F] rounded-lg p-7 shadow-md">
                                 <div className="relative w-56 h-56 rounded-full overflow-hidden mb-4 mx-auto">
                                     <Image
-                                        src="/consultant-placeholder-2.jpg"
+                                        src="/kate.jpg"
                                         alt="Kate Chang"
                                         fill
-                                        className="object-cover"
+                                        className="object-cover object-top"
                                     />
                                 </div>
                                 <h2 className="text-3xl font-semibold text-white mb-2 text-center">
