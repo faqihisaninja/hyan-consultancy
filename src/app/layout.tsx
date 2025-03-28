@@ -12,16 +12,14 @@ const poppins = Poppins({
     variable: "--font-poppins",
 });
 
-// Load Dream-Avenue font
 const dreamAvenue = localFont({
-    src: "../fonts/Dream-Avenue.woff2", // Adjust the path as needed
+    src: "../fonts/Dream-Avenue.woff2",
     variable: "--font-dream-avenue",
     display: "swap",
 });
 
-// Load Quicksand Bold font
 const quicksandBold = localFont({
-    src: "../fonts/Quicksand-Bold.woff2", // Adjust the path as needed
+    src: "../fonts/Quicksand-Bold.woff2",
     variable: "--font-quicksand-bold",
     display: "swap",
 });

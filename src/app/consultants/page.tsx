@@ -2,11 +2,10 @@ import Consultant from "@/components/Consultant";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export default function Consultants() {
-    // Consultant data - replace with actual consultant information
     const consultants = [
         {
             name: "Helmi Ali",
-            image: "/helmi.jpg", // Using the same image names from the about page
+            image: "/helmi.jpg",
             phone: "+65 1234 5678",
             email: "helmi@hyanconsulting.com",
             linkedIn: "https://www.linkedin.com/in/helmi-ali-8ba64b3a/",
@@ -17,7 +16,7 @@ export default function Consultants() {
         },
         {
             name: "Kate Chang",
-            image: "/kate.jpg", // Using the same image names from the about page
+            image: "/kate.jpg",
             phone: "+65 8765 4321",
             email: "kate@hyanconsulting.com",
             linkedIn:
