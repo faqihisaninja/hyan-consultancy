@@ -48,9 +48,9 @@ export default function About() {
             {/* Our Consultants */}
             <section className="py-16 px-4 md:px-8">
                 <div className="container max-w-6xl mx-auto">
-                    <h2 className="text-3xl text-gray-800 mb-10 font-medium font-poppins text-center">
+                    {/* <h2 className="text-3xl text-gray-800 mb-10 font-medium font-poppins text-center">
                         Meet Our Consultants
-                    </h2>
+                    </h2> */}
 
                     {/* Photos and Titles */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
