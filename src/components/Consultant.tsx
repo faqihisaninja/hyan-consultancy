@@ -33,14 +33,17 @@ export default function Consultant({
                             src={image}
                             alt={`${name} - Director at Hyan Consulting`}
                             fill
-                            style={{ objectFit: "cover" }}
+                            style={{
+                                objectFit: "cover",
+                                objectPosition: "50% 10%",
+                            }}
                             priority
                         />
                     </div>
                 </div>
 
                 {/* Contact Information */}
-                <div className="w-full md:w-2/3 bg-[#00838F] rounded-lg p-7 shadow-md">
+                <div className="w-full md:w-2/3 bg-[#00838F] rounded-lg p-7 shadow-md flex flex-col justify-center">
                     <h2 className="text-3xl font-semibold text-white mb-2">
                         {name}
                     </h2>

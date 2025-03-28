@@ -50,7 +50,7 @@ export default function About() {
             <section className="px-4 md:px-8">
                 <div className="container max-w-6xl mx-auto">
                     {/* Photos and Titles */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-16">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16 mb-8">
                         {/* Consultant 1 */}
                         <div className="flex flex-col">
                             <div className="w-full md:w-2/3 mx-auto bg-[#00838F] rounded-lg p-7 shadow-md">
