@@ -1,6 +1,5 @@
-import Link from "next/link";
-
 import Consultant from "@/components/Consultant";
+import Breadcrumb from "@/components/Breadcrumb";
 
 export default function Consultants() {
     // Consultant data - replace with actual consultant information
@@ -33,37 +32,12 @@ export default function Consultants() {
         <main className="bg-[#F8FBFB]">
             <section className="py-16 px-4 md:px-8">
                 <div className="container max-w-6xl mx-auto">
-                    {/* Breadcrumb Navigation */}
-                    <nav className="flex mb-6 text-sm" aria-label="Breadcrumb">
-                        <ol className="inline-flex items-center">
-                            <li className="inline-flex items-center">
-                                <Link
-                                    href="/"
-                                    className="text-gray-600 hover:text-blue-600"
-                                >
-                                    Home
-                                </Link>
-                                <span className="mx-2 text-gray-400">/</span>
-                            </li>
-                            <li className="inline-flex items-center">
-                                <Link
-                                    href="/about"
-                                    className="text-gray-600 hover:text-blue-600"
-                                >
-                                    About Us
-                                </Link>
-                                <span className="mx-2 text-gray-400">/</span>
-                            </li>
-                            <li className="inline-flex items-center">
-                                <Link
-                                    href="/consultants"
-                                    className="text-gray-600 hover:text-blue-600"
-                                >
-                                    Our Consultants
-                                </Link>
-                            </li>
-                        </ol>
-                    </nav>
+                    <Breadcrumb
+                        items={[
+                            { label: "About Us", href: "/about" },
+                            { label: "Our Consultants", href: "/consultants" },
+                        ]}
+                    />
 
                     <h1 className="text-4xl font-bold text-gray-800 mb-12">
                         Our Consultants
