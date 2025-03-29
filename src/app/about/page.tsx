@@ -1,8 +1,25 @@
+"use client";
+
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
+import { useRouter } from "next/navigation";
+
+import { consultants } from "@/app/stores/consultants";
 
 export default function About() {
+    const router = useRouter();
+
+    // Modified function to handle navigation and scrolling
+    const scrollToConsultant = (e: React.MouseEvent, consultantId: string) => {
+        e.preventDefault();
+
+        // Store the consultant ID to scroll to
+        localStorage.setItem("scrollToConsultant", consultantId);
+
+        // Navigate to consultants page
+        router.push("/consultants");
+    };
+
     return (
         <main className="bg-[#F8FBFB]">
             <Head>
@@ -51,63 +68,40 @@ export default function About() {
                 <div className="container max-w-6xl mx-auto">
                     {/* Photos and Titles */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16 mb-8">
-                        {/* Consultant 1 */}
-                        <div className="flex flex-col">
-                            <div className="w-full md:w-2/3 mx-auto bg-[#00838F] rounded-lg p-7 shadow-md">
-                                <div className="relative w-56 h-56 rounded-full overflow-hidden mb-4 mx-auto">
-                                    <Image
-                                        src="/helmi.jpg"
-                                        alt="Helmi Ali"
-                                        fill
-                                        className="object-cover object-top"
-                                    />
-                                </div>
-                                <h2 className="text-3xl font-semibold text-white mb-2 text-center">
-                                    Helmi Ali
-                                </h2>
-                                <p className="text-lg text-white mb-4 text-center">
-                                    Director
-                                </p>
+                        {consultants.map((consultant) => (
+                            <div key={consultant.id} className="flex flex-col">
+                                <div className="w-full md:w-2/3 mx-auto bg-[#00838F] rounded-lg p-7 shadow-md">
+                                    <div className="relative w-56 h-56 rounded-full overflow-hidden mb-4 mx-auto">
+                                        <Image
+                                            src={consultant.image}
+                                            alt={consultant.name}
+                                            fill
+                                            className="object-cover object-top"
+                                        />
+                                    </div>
+                                    <h2 className="text-3xl font-semibold text-white mb-2 text-center">
+                                        {consultant.name}
+                                    </h2>
+                                    <p className="text-lg text-white mb-4 text-center">
+                                        {consultant.title}
+                                    </p>
 
-                                <div className="flex justify-center">
-                                    <Link
-                                        href="/consultants"
-                                        className="bg-white bg-opacity-10 px-4 py-2 rounded text-white hover:bg-opacity-20 transition-all"
-                                    >
-                                        View Profile
-                                    </Link>
+                                    <div className="flex justify-center">
+                                        <button
+                                            onClick={(e) =>
+                                                scrollToConsultant(
+                                                    e,
+                                                    consultant.id
+                                                )
+                                            }
+                                            className="bg-white bg-opacity-10 px-4 py-2 rounded text-white hover:bg-opacity-20 transition-all"
+                                        >
+                                            View Profile
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-
-                        {/* Consultant 2 */}
-                        <div className="flex flex-col">
-                            <div className="w-full md:w-2/3 mx-auto bg-[#00838F] rounded-lg p-7 shadow-md">
-                                <div className="relative w-56 h-56 rounded-full overflow-hidden mb-4 mx-auto">
-                                    <Image
-                                        src="/kate.jpg"
-                                        alt="Kate Chang"
-                                        fill
-                                        className="object-cover object-top"
-                                    />
-                                </div>
-                                <h2 className="text-3xl font-semibold text-white mb-2 text-center">
-                                    Kate Chang
-                                </h2>
-                                <p className="text-lg text-white mb-4 text-center">
-                                    Director
-                                </p>
-
-                                <div className="flex justify-center">
-                                    <Link
-                                        href="/consultants"
-                                        className="bg-white bg-opacity-10 px-4 py-2 rounded text-white hover:bg-opacity-20 transition-all"
-                                    >
-                                        View Profile
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
+                        ))}
                     </div>
                 </div>
             </section>

@@ -4,6 +4,8 @@ import { FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 
 interface ConsultantProps {
     name: string;
+    title: string;
+    id: string;
     image: string;
     phone: string;
     email: string;
@@ -15,6 +17,8 @@ interface ConsultantProps {
 
 export default function Consultant({
     name,
+    title,
+    id,
     image,
     phone,
     email,
@@ -24,7 +28,7 @@ export default function Consultant({
     biography,
 }: ConsultantProps) {
     return (
-        <div className="mb-16">
+        <div id={id} className="mb-16">
             <div className="flex flex-col md:flex-row gap-8">
                 {/* Headshot */}
                 <div className="w-full md:w-1/3">
@@ -47,7 +51,7 @@ export default function Consultant({
                     <h2 className="text-3xl font-semibold text-white mb-2">
                         {name}
                     </h2>
-                    <p className="text-lg text-white mb-4">Director</p>
+                    <p className="text-lg text-white mb-4">{title}</p>
 
                     <div className="space-y-3 mb-6">
                         <div className="flex items-center gap-2">
@@ -128,7 +132,7 @@ export default function Consultant({
             {/* Biography */}
             <div className="mt-8">
                 <h3 className="text-2xl font-semibold text-gray-800 mb-3 border-b pb-2">
-                    {name}, Director
+                    {name}, {title}
                 </h3>
                 <p className="text-gray-700 leading-relaxed">{biography}</p>
             </div>
