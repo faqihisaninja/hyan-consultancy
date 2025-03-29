@@ -57,10 +57,6 @@ export default function Consultant({
 
                     <div className="space-y-3 mb-6">
                         <div className="flex items-center gap-2">
-                            <FaPhone className="text-white" />
-                            <span className="text-white">{phone}</span>
-                        </div>
-                        <div className="flex items-center gap-2">
                             <FaEnvelope className="text-white" />
                             <Link
                                 href={`mailto:${email}`}
