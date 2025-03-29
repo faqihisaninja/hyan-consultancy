@@ -4,7 +4,6 @@ export const consultants = [
         title: "Director",
         id: "helmi-ali",
         image: "/helmi.jpg",
-        phone: "+65 1234 5678",
         email: "helmi@hyanconsulting.com",
         linkedIn: "https://www.linkedin.com/in/helmi-ali-8ba64b3a/",
         registrationNumber: "REG12345",
@@ -20,7 +19,6 @@ export const consultants = [
         title: "Director",
         id: "kate-chang",
         image: "/kate.jpg",
-        phone: "+65 8765 4321",
         email: "kate@hyanconsulting.com",
         linkedIn:
             "https://www.linkedin.com/in/kate-chang-%E9%83%91%E5%88%9D%E8%89%B3-bab78a98/",

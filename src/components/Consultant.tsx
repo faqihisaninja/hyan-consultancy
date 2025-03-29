@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
+import { FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 import Biography from "@/components/Biography";
 
@@ -22,7 +22,6 @@ export default function Consultant({
     title,
     id,
     image,
-    phone,
     email,
     linkedIn,
     registrationNumber,
