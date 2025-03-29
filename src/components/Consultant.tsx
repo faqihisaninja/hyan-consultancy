@@ -9,7 +9,6 @@ interface ConsultantProps {
     title: string;
     id: string;
     image: string;
-    phone: string;
     email: string;
     linkedIn: string;
     registrationNumber: string;
