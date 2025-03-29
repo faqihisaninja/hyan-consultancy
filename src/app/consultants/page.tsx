@@ -1,7 +1,7 @@
 "use client";
 
-import Consultant from "@/components/Consultant";
 import Breadcrumb from "@/components/Breadcrumb";
+import Consultant from "@/components/Consultant";
 import { consultants } from "@/app/stores/consultants";
 import { useEffect } from "react";
 

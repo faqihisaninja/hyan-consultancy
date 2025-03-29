@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 
+import Biography from "@/components/Biography";
+
 interface ConsultantProps {
     name: string;
     title: string;
@@ -12,7 +14,7 @@ interface ConsultantProps {
     linkedIn: string;
     registrationNumber: string;
     licenseNumber: string;
-    biography: string;
+    biography: string[];
 }
 
 export default function Consultant({
@@ -134,7 +136,7 @@ export default function Consultant({
                 <h3 className="text-2xl font-semibold text-gray-800 mb-3 border-b pb-2">
                     {name}, {title}
                 </h3>
-                <p className="text-gray-700 leading-relaxed">{biography}</p>
+                <Biography paragraphs={biography} />
             </div>
         </div>
     );
