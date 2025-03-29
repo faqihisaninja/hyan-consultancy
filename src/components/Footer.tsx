@@ -71,20 +71,27 @@ export default function Footer() {
                 </div>
             </div>
             <div className="max-w-6xl mx-auto mt-5 pt-5 border-t border-[#80D9E2]">
-                <div className="flex flex-col md:flex-row justify-between items-center">
-                    <p>© 2025 Hyan Consulting Ptd Ltd. All rights reserved.</p>
-
-                    {/* Legal Links */}
-                    <div className="flex space-x-4 mt-2 md:mt-0 text-sm">
-                        <Link href="/terms" className="hover:underline">
-                            Terms of Use
-                        </Link>
-                        <Link href="/privacy" className="hover:underline">
-                            Privacy Policy
-                        </Link>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {/* Column 1 */}
+                    <div className="space-y-2">
+                        <p>
+                            © 2025 Hyan Consulting Ptd Ltd. All rights reserved.
+                        </p>
+                        <div className="flex space-x-4 text-sm">
+                            <span>License No. 19S9699</span>
+                            <span>|</span>
+                            <Link href="/terms" className="hover:underline">
+                                Terms of Use
+                            </Link>
+                            <span>|</span>
+                            <Link href="/privacy" className="hover:underline">
+                                Privacy Policy
+                            </Link>
+                        </div>
                     </div>
 
-                    <div className="flex space-x-4 mt-4 md:mt-0">
+                    {/* Column 2 - Social Links */}
+                    <div className="flex justify-end items-center space-x-4">
                         <Link
                             href="https://www.linkedin.com/company/hyan-consulting/"
                             className="bg-white p-2 rounded-full text-[#00838F] hover:bg-gray-100 transition-colors"
